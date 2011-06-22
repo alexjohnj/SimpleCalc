@@ -1,0 +1,109 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25100\viewh13980\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl-280\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 v3.3.2\
+- The preferences system has been re-written to utilise bindings making it easier to update and reducing the likely hood of bugs existing/being created. \
+- Bits of code have been tweaked to reduce memory usage & to make the code easier to read.\
+- Fixed a couple of memory leaks.\
+- The AutoCalc checkbox in the preferences window is now guaranteed to be disabled on the first launch of the application. \
+- Added a check for updates button in the preferences window. \
+- Made a couple of changes to the factorial system, mainly, the user can only enter 3 digits (since the maximum number that can be processed is 170) in order to prevent the application from slowing down by calculating the answer to massive numbers, from which it would produce no answer (other than infinity) anyway. \
+\
+v3.3.1\
+- More of SimpleCalc has been translated into Spanish.\
+- Translation of SimpleCalc into Italian has begun thanks to 
+\fs26 Pierpaolo Caricato. 
+\fs24 \
+\
+v3.3\
+- Completely re-written the method for working out averages (again!) to make it cleaner and faster (For developers interest, it now uses bindings). \
+- The averages table now begins editing an entry on insert so as soon as you click the '+' button you begin editing the number.\
+- You can now select multiple numbers in the averages table (by using the 
+\f1 \uc0\u8984 
+\f0  key).\
+- Can now remove multiple numbers at once rather than one at a time.\
+- Removed the 'Remove All Numbers' button in favour of just selecting all the numbers and pressing the '-' button. \
+- Began localising application into Spanish. Roughly 80% of the application has been localised so far. NB: The spanish will be far from perfect since Spanish isn't my first language. \
+- Fixed two clipping issues. \
+\
+v3.2\
+- A new feature called AutoCalc has been added. This allows the calculator to work out your answers as you type them. Experimental and currently works with Basic Maths, Factorials & quadratics. Disabled by default\
+- A new UI for working out averages has been developed. It allows for a (theoretical) infinite amount of numbers to average. Makes use of AutoCalc and is enabled by default. \
+- A preferences window has been added which allows you to enable/disable AutoCalc. \
+- Menu bar item now does something! Clicking the menu bar item shows/hides the application.\
+- Many code improvements that make the code cleaner to read. \
+\
+v3.1\
+- Fixed some clipping issues.\
+- Differentiation: No longer displays a warning when the power is 0, rather, X disappears. \
+- Changed the about screen to include links to websites.\
+\
+v3.0\
+\pard\pardeftab720\sl-280\ql\qnatural
+\cf0 - Completely redesigned user interface. Uses tabbed views rather than a single window pane.\
+- Added the ability to solve quadratic equations using the quadratic formula.\
+- Added the ability to differentiate and integrate functions.\
+- Added the ability to root numbers.\
+- Added the ability to calculate the factorial of a number.\
+- Added the ability to carry out conversions. e.g.: \uc0\u730 C-\u730 F, cm - m etc.\
+- Entire project renamed to SimpleCalc rather than Calc with bits of SimpleCalc here and there.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl-280\ql\qnatural\pardirnatural
+\cf0 v2.7 \
+- Added auto update.\
+\
+v2.6.3\
+- Several bugs squashed! \
+- NSNumberFormatter updated to use the default formatter for OS 10.4+ instead of the previous formatter for OS10.0+. This means more accurate rounding and also means negative numbers now appear as -X instead of in brackets.\
+- Annoying bug which occurred when X - X = 0 has been fixed. (before fix, the answer would equal 0.0.00).\
+- Moved some buttons. \
+- Code refinements (thanks to changing to NSNumberFormatter for OS 10.4+). \
+- The keyboard shortcut for averages has changed from 
+\f1 \uc0\u8984 
+\f0 +A to 
+\f1 \uc0\u8984 
+\f0 +Shift+A to avoid conflict with the select all shortcut.\
+- Many variables have been replaced with arrays, to make future changes easier.\
+\
+v2.6.2\
+- Removed sound effects when clicking buttons.\
+- Removed 1 unnecessary method.\
+- Changed the about screen.\
+\
+v2.6.1\
+- Added menu bar item (currently non functional).\
+\
+v2.6\
+- Added square [number] button.\
+\
+v2.5.1\
+- Window size and answer field size increased. \
+- [double] used instead of [float].\
+- minor code refinements.\
+\
+v2.5\
+- 7 new text fields for calculating more advanced averages. \
+- Keyboard shortcut: CMD+A for average.\
+- Sound added to average button.\
+\
+v2.2\
+- Average button and support (proof of concept only two numbers supported). \
+\
+v2.0.1\
+- Bug fixes.\
+\
+v2.0:\
+- 64bit processing. \
+- Icon designed by James Quirk.\
+- More info added in about calc.\
+- Calculate button now responds to return key.\
+- Answer Box is no longer selectable.\
+- Calculate button pulsates.\
+- Sound for calculate added.\
+- Decimal Support.\
+\
+V2.0 > :\
+- These versions of SimpleCalc where never released publicly. To be honest, these versions could add two numbers and that was it. }

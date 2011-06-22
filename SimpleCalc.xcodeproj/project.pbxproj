@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA0057741375411D006636D5 /* AverageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0057731375411D006636D5 /* AverageModel.m */; };
+		FA005777137541CA006636D5 /* AverageController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA005776137541CA006636D5 /* AverageController.m */; };
+		FA2C3A92137D2EAF001BAFBD /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2C3A94137D2EAF001BAFBD /* Preferences.xib */; };
+		FA2D9C8C1301A4BA00DF2D5B /* BasicCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D9C8B1301A4BA00DF2D5B /* BasicCalculations.m */; };
+		FA2D9CBF1301A9A600DF2D5B /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D9CBE1301A9A600DF2D5B /* Converter.m */; };
+		FA5047A212F9E802005AA4BA /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5047A112F9E802005AA4BA /* Sparkle.framework */; };
+		FA5047AE12F9E80F005AA4BA /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5047A112F9E802005AA4BA /* Sparkle.framework */; };
+		FA5047C012F9E8BF005AA4BA /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FA5047BF12F9E8BF005AA4BA /* dsa_pub.pem */; };
+		FA60EA331359BC2600DE72BD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA60EA321359BC2600DE72BD /* Credits.rtf */; };
+		FA663FBB103BF83D005B88B7 /* MenuBarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = FA663FBA103BF83D005B88B7 /* MenuBarItem.png */; };
+		FA68F5A9137FD0CE00E88EDE /* Changelog.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA68F5A8137FD0CE00E88EDE /* Changelog.rtf */; };
+		FA6A7B2312FB27BB00436DE6 /* Differentiation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6A7B2212FB27BB00436DE6 /* Differentiation.m */; };
+		FA7CC4E312FB235F0094EF44 /* Quadratics.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7CC4E212FB235F0094EF44 /* Quadratics.m */; };
+		FAA4C99A13685D2F0029FC88 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4C99913685D2E0029FC88 /* AppController.m */; };
+		FAA4C99D13685EC80029FC88 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4C99C13685EC80029FC88 /* PreferencesController.m */; };
+		FACA893410025F57001E9DAE /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FACA893310025F57001E9DAE /* icon.icns */; };
+		FAEAF8441368474E0071D920 /* Factorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEAF8431368474E0071D920 /* Factorial.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA5047B712F9E812005AA4BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA5047AE12F9E80F005AA4BA /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA65F4F212F72C030023626F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* SimpleCalc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCalc_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SimpleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0057721375411D006636D5 /* AverageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AverageModel.h; path = SimpleCalc.xcodeproj/AverageModel.h; sourceTree = "<group>"; };
+		FA0057731375411D006636D5 /* AverageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AverageModel.m; path = SimpleCalc.xcodeproj/AverageModel.m; sourceTree = "<group>"; };
+		FA005775137541CA006636D5 /* AverageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AverageController.h; sourceTree = "<group>"; };
+		FA005776137541CA006636D5 /* AverageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AverageController.m; sourceTree = "<group>"; };
+		FA2C3A93137D2EAF001BAFBD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FA2C3A95137D2EB4001BAFBD /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/Preferences.xib; sourceTree = "<group>"; };
+		FA2D9C8A1301A4BA00DF2D5B /* BasicCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCalculations.h; sourceTree = "<group>"; };
+		FA2D9C8B1301A4BA00DF2D5B /* BasicCalculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCalculations.m; sourceTree = "<group>"; };
+		FA2D9CBD1301A9A600DF2D5B /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FA2D9CBE1301A9A600DF2D5B /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		FA5047A112F9E802005AA4BA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FA5047BF12F9E8BF005AA4BA /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		FA52A494137D2378003B9C95 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA60EA321359BC2600DE72BD /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		FA663FBA103BF83D005B88B7 /* MenuBarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBarItem.png; sourceTree = "<group>"; };
+		FA68F5A8137FD0CE00E88EDE /* Changelog.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Changelog.rtf; sourceTree = "<group>"; };
+		FA6A7B2112FB27BB00436DE6 /* Differentiation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Differentiation.h; sourceTree = "<group>"; };
+		FA6A7B2212FB27BB00436DE6 /* Differentiation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Differentiation.m; sourceTree = "<group>"; };
+		FA7CC4E112FB235F0094EF44 /* Quadratics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadratics.h; sourceTree = "<group>"; };
+		FA7CC4E212FB235F0094EF44 /* Quadratics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quadratics.m; sourceTree = "<group>"; };
+		FAA4C99813685D2E0029FC88 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		FAA4C99913685D2E0029FC88 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		FAA4C99B13685EC80029FC88 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		FAA4C99C13685EC80029FC88 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		FAC7EADE137552170044D77F /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FACA893310025F57001E9DAE /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		FAEAF8421368474E0071D920 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
+		FAEAF8431368474E0071D920 /* Factorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factorial.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				FA5047A212F9E802005AA4BA /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4C99B13685EC80029FC88 /* PreferencesController.h */,
+				FAA4C99C13685EC80029FC88 /* PreferencesController.m */,
+				FAA4C99813685D2E0029FC88 /* AppController.h */,
+				FAA4C99913685D2E0029FC88 /* AppController.m */,
+				FA2D9CBD1301A9A600DF2D5B /* Converter.h */,
+				FA2D9CBE1301A9A600DF2D5B /* Converter.m */,
+				FA2D9C8A1301A4BA00DF2D5B /* BasicCalculations.h */,
+				FA2D9C8B1301A4BA00DF2D5B /* BasicCalculations.m */,
+				FAEAF8421368474E0071D920 /* Factorial.h */,
+				FAEAF8431368474E0071D920 /* Factorial.m */,
+				FA6A7B2112FB27BB00436DE6 /* Differentiation.h */,
+				FA6A7B2212FB27BB00436DE6 /* Differentiation.m */,
+				FA7CC4E112FB235F0094EF44 /* Quadratics.h */,
+				FA7CC4E212FB235F0094EF44 /* Quadratics.m */,
+				FA0057721375411D006636D5 /* AverageModel.h */,
+				FA0057731375411D006636D5 /* AverageModel.m */,
+				FA005775137541CA006636D5 /* AverageController.h */,
+				FA005776137541CA006636D5 /* AverageController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5047A112F9E802005AA4BA /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SimpleCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Calc */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				FA68F5A7137FD08800E88EDE /* Other Resources */,
+			);
+			name = Calc;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SimpleCalc_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FACA893310025F57001E9DAE /* icon.icns */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				FA5047BF12F9E8BF005AA4BA /* dsa_pub.pem */,
+				FA663FBA103BF83D005B88B7 /* MenuBarItem.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				FA2C3A94137D2EAF001BAFBD /* Preferences.xib */,
+				FA60EA321359BC2600DE72BD /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA68F5A7137FD08800E88EDE /* Other Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA68F5A8137FD0CE00E88EDE /* Changelog.rtf */,
+			);
+			name = "Other Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SimpleCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleCalc" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				FA65F4F212F72C030023626F /* CopyFiles */,
+				FA5047B712F9E812005AA4BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCalc;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Calc;
+			productReference = 8D1107320486CEB800E47090 /* SimpleCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleCalc" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				es,
+				it,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Calc */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SimpleCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FACA893410025F57001E9DAE /* icon.icns in Resources */,
+				FA663FBB103BF83D005B88B7 /* MenuBarItem.png in Resources */,
+				FA5047C012F9E8BF005AA4BA /* dsa_pub.pem in Resources */,
+				FA60EA331359BC2600DE72BD /* Credits.rtf in Resources */,
+				FA2C3A92137D2EAF001BAFBD /* Preferences.xib in Resources */,
+				FA68F5A9137FD0CE00E88EDE /* Changelog.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				FA7CC4E312FB235F0094EF44 /* Quadratics.m in Sources */,
+				FA6A7B2312FB27BB00436DE6 /* Differentiation.m in Sources */,
+				FA2D9C8C1301A4BA00DF2D5B /* BasicCalculations.m in Sources */,
+				FA2D9CBF1301A9A600DF2D5B /* Converter.m in Sources */,
+				FAEAF8441368474E0071D920 /* Factorial.m in Sources */,
+				FAA4C99A13685D2F0029FC88 /* AppController.m in Sources */,
+				FAA4C99D13685EC80029FC88 /* PreferencesController.m in Sources */,
+				FA0057741375411D006636D5 /* AverageModel.m in Sources */,
+				FA005777137541CA006636D5 /* AverageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+				FAC7EADE137552170044D77F /* es */,
+				FA52A494137D2378003B9C95 /* it */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FA2C3A94137D2EAF001BAFBD /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2C3A93137D2EAF001BAFBD /* English */,
+				FA2C3A95137D2EB4001BAFBD /* es */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleCalc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SimpleCalc;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleCalc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = SimpleCalc;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
