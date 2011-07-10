@@ -8,6 +8,7 @@
 #import "BasicCalculations.h"
 
 @implementation BasicCalculations
+@synthesize operationPopup, numberField, numberFieldtwo, answerField;
 
 #pragma mark Main Calculate Method
 -(double)calculate{ //the main method for calculating sums, pretty self explanitory

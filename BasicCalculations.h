@@ -8,11 +8,16 @@
 #import <Cocoa/Cocoa.h>
 
 @interface BasicCalculations : NSObject {
-    IBOutlet id answerField;
-    IBOutlet id numberField;
-    IBOutlet id numberFieldtwo;
-    IBOutlet id operationPopup;
+    IBOutlet NSTextField *answerField;
+    IBOutlet NSTextField *numberField;
+    IBOutlet NSTextField *numberFieldtwo;
+    IBOutlet NSPopUpButton *operationPopup;
 }
+@property (assign) IBOutlet NSTextField *answerField;
+@property (assign) IBOutlet NSTextField *numberField;
+@property (assign) IBOutlet NSTextField *numberFieldtwo;
+@property (assign) IBOutlet NSPopUpButton *operationPopup;
+
 - (IBAction)calculateAnswer:(id)sender;
 - (IBAction)SetDivisionMenu:(id)sender;
 - (IBAction)SetSubtractionMenu:(id)sender;
