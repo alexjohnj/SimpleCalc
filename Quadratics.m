@@ -8,6 +8,7 @@
 #import "Quadratics.h"
 
 @implementation Quadratics
+@synthesize negFieldB, popup, posFieldB, fieldA, fieldC, answerField;
 #pragma mark Button Methods
 - (IBAction)calculate:(id)sender {
     [answerField setDoubleValue:[self quadMe]];

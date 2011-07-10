@@ -14,6 +14,13 @@
     IBOutlet NSPopUpButton *popup;
     IBOutlet NSTextField *posFieldB;
 }
+@property (assign) IBOutlet NSTextField *answerField;
+@property (assign) IBOutlet NSTextField *fieldA;
+@property (assign) IBOutlet NSTextField *fieldC;
+@property (assign) IBOutlet NSTextField *negFieldB;
+@property (assign) IBOutlet NSTextField *posFieldB;
+@property (assign) IBOutlet NSPopUpButton *popup;
+
 - (IBAction)calculate:(id)sender;
 - (IBAction)popupDidChange:(id)sender;
 - (double)quadMe;
