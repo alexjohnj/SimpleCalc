@@ -9,7 +9,7 @@
 #import "Factorial.h"
 
 @implementation Factorial
-@synthesize window;
+@synthesize window, answerField, factorialField;
 #pragma mark Button Code
 - (IBAction)calculate:(id)sender {	
 	[answerField setDoubleValue:[self factorialise]];
