@@ -10,7 +10,7 @@
 
 
 @implementation AverageController
-
+@synthesize tableView, arrayController, answerField;
 #pragma mark Array Modifying Methods
 -(IBAction)addNumber:(id)sender{
     NSWindow *window = [tableView window];
