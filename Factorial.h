@@ -13,8 +13,12 @@
     IBOutlet id factorialField;
     IBOutlet id answerField;
     
+    IBOutlet NSWindow *window;
+    
     int tries;
 }
+@property (assign) IBOutlet NSWindow *window;
+
 -(IBAction)calculate:(id)sender;
 -(double)factorialise;
 

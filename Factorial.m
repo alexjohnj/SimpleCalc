@@ -9,6 +9,7 @@
 #import "Factorial.h"
 
 @implementation Factorial
+@synthesize window;
 #pragma mark Button Code
 - (IBAction)calculate:(id)sender {	
 	[answerField setDoubleValue:[self factorialise]];
@@ -24,11 +25,13 @@
             tries++; //if user hasn't, warning is displayed
         
         if(tries == 3 && [[NSUserDefaults standardUserDefaults] boolForKey:@"seenFactorialWarning"] == NO){ //check value of tries, and if user has seen warning
-            NSRunAlertPanel(@"Why can't I go any bigger?", 
-                            @"The Maximum Number you can work out the factorial of is 170. Any higher will produce no answer and will slow your computer down.", 
-                            @"OK",
-                            nil, 
-                            nil);
+            NSAlert *noBiggerAlert = [NSAlert alertWithMessageText:@"Why can't I go any bigger?"
+                                                     defaultButton:@"OK" 
+                                                   alternateButton:nil 
+                                                       otherButton:nil 
+                                         informativeTextWithFormat:@"The Maximum Number you can work out the factorial of is 170. Any higher will produce no answer and will slow your computer down."];
+            [noBiggerAlert beginSheetModalForWindow:window modalDelegate:self didEndSelector:nil contextInfo:nil];
+            
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"seenFactorialWarning"];
         }
     }
@@ -52,7 +55,6 @@
 		answer = answer * g;
 		counter++;
 	}
-    NSLog(@"%f", answer);
     return answer;
 }
 @end
