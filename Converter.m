@@ -12,6 +12,7 @@
  If someone would do that, that would be great!***/
 
 @implementation Converter
+@synthesize numberField, answerField;
 #pragma mark Conversions Code
 - (IBAction)ctof:(id)sender {
 	

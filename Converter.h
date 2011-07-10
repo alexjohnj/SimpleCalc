@@ -9,8 +9,11 @@
 
 @interface Converter : NSObject {
     IBOutlet NSTextField *answerField;
-    IBOutlet id numberField;
+    IBOutlet NSTextField *numberField;
 }
+@property (assign) IBOutlet NSTextField *answerField;
+@property (assign) IBOutlet NSTextField *numberField;
+
 - (IBAction)ctof:(id)sender;
 - (IBAction)ftoc:(id)sender;
 - (IBAction)cmtom:(id)sender;

@@ -31,7 +31,6 @@
                                                        otherButton:nil 
                                          informativeTextWithFormat:@"The Maximum Number you can work out the factorial of is 170. Any higher will produce no answer and will slow your computer down."];
             [noBiggerAlert beginSheetModalForWindow:window modalDelegate:self didEndSelector:nil contextInfo:nil];
-            
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"seenFactorialWarning"];
         }
     }
