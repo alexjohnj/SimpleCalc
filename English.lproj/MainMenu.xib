@@ -895,7 +895,7 @@
 												<string key="NSFrame">{{152, 73}, {83, 19}}</string>
 												<reference key="NSSuperview" ref="846248852"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="628177601"/>
+												<reference key="NSNextKeyView"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSButtonCell" key="NSCell" id="301582157">
@@ -5485,8 +5485,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSTextField</string>
 							<string>NSTextField</string>
-							<string>id</string>
-							<string>id</string>
+							<string>NSTextField</string>
+							<string>NSTextField</string>
 							<string>NSTextField</string>
 						</object>
 					</object>
@@ -5512,11 +5512,11 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">power</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">prex</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">x</string>
@@ -5553,8 +5553,8 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
+							<string>NSTextField</string>
+							<string>NSTextField</string>
 							<string>NSWindow</string>
 						</object>
 					</object>
@@ -5570,11 +5570,11 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
 								<string key="name">answerField</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">factorialField</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">window</string>

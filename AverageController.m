@@ -10,7 +10,7 @@
 
 
 @implementation AverageController
-@synthesize tableView, arrayController, answerField;
+@synthesize tableView, arrayController, answerField, average;
 #pragma mark Array Modifying Methods
 -(IBAction)addNumber:(id)sender{
     NSWindow *window = [tableView window];
@@ -30,15 +30,10 @@
 
 -(IBAction)removeNumber:(id)sender{
     [arrayController removeObjectsAtArrangedObjectIndexes:[tableView selectedRowIndexes]];
-    [self setAverage];
-}
-#pragma mark AutoCalc
--(void)controlTextDidEndEditing:(NSNotification *)obj{
-    [self setAverage];
+    [self calculateAverage];
 }
 
-#pragma mark Setters & Getters
--(void)setAverage{
+-(void)calculateAverage{
     double answer = 0;
     int i;
     AverageModel *tempAverages;
@@ -48,11 +43,12 @@
         tempAverages = nil; 
     }
     answer /= [numbersArray count];
-    [self setValue:[NSNumber numberWithDouble:answer] forKey:@"average"];
-}
--(double)average{
-    return average;
+    [self setAverage:answer];
 }
 
+#pragma mark AutoCalc
+-(void)controlTextDidEndEditing:(NSNotification *)obj{
+    [self calculateAverage];
+}
 
 @end

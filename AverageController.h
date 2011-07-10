@@ -16,12 +16,15 @@
     IBOutlet NSTextField *answerField;
     double average;
 }
+//Synthesised Accessors
 @property (assign) IBOutlet NSTableView *tableView;
 @property (assign) IBOutlet NSArrayController *arrayController;
 @property (assign) IBOutlet NSTextField *answerField; 
+@property (assign) double average;
 
+//IBActions
 -(IBAction)addNumber:(id)sender;
 -(IBAction)removeNumber:(id)sender;
--(double)average;
--(void)setAverage;
+//Methods
+-(void)calculateAverage;
 @end
