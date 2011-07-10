@@ -1171,14 +1171,14 @@
 												<int key="NSvFlags">12</int>
 												<string key="NSFrame">{{10, -1}, {332, 233}}</string>
 												<reference key="NSSuperview" ref="133810661"/>
-												<reference key="NSNextKeyView" ref="928747792"/>
+												<reference key="NSNextKeyView" ref="837342507"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<object class="NSMutableArray" key="NSTabViewItems">
 													<bool key="EncodedWithXMLCoder">YES</bool>
 													<object class="NSTabViewItem" id="182649941">
 														<string key="NSIdentifier">1</string>
 														<object class="NSView" key="NSView" id="837342507">
-															<nil key="NSNextResponder"/>
+															<reference key="NSNextResponder" ref="120189851"/>
 															<int key="NSvFlags">256</int>
 															<object class="NSMutableArray" key="NSSubviews">
 																<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1187,7 +1187,7 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{148, 55}, {98, 32}}</string>
 																	<reference key="NSSuperview" ref="837342507"/>
-																	<reference key="NSNextKeyView" ref="628177601"/>
+																	<reference key="NSNextKeyView" ref="120189851"/>
 																	<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSButtonCell" key="NSCell" id="184148467">
@@ -1395,6 +1395,7 @@
 																</object>
 															</object>
 															<string key="NSFrame">{{10, 7}, {312, 195}}</string>
+															<reference key="NSSuperview" ref="120189851"/>
 															<reference key="NSNextKeyView" ref="917196989"/>
 															<int key="NSViewLayerContentsRedrawPolicy">2</int>
 														</object>
@@ -1549,7 +1550,7 @@
 													<object class="NSTabViewItem" id="891295590">
 														<string key="NSIdentifier">Item 2</string>
 														<object class="NSView" key="NSView" id="928747792">
-															<reference key="NSNextResponder" ref="120189851"/>
+															<nil key="NSNextResponder"/>
 															<int key="NSvFlags">256</int>
 															<object class="NSMutableArray" key="NSSubviews">
 																<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1594,7 +1595,7 @@
 																	<int key="NSvFlags">268</int>
 																	<string key="NSFrame">{{150, 77}, {98, 32}}</string>
 																	<reference key="NSSuperview" ref="928747792"/>
-																	<reference key="NSNextKeyView" ref="120189851"/>
+																	<reference key="NSNextKeyView" ref="628177601"/>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSButtonCell" key="NSCell" id="441929510">
 																		<int key="NSCellFlags">67239424</int>
@@ -1612,7 +1613,6 @@
 																</object>
 															</object>
 															<string key="NSFrame">{{10, 7}, {312, 195}}</string>
-															<reference key="NSSuperview" ref="120189851"/>
 															<reference key="NSNextKeyView" ref="944601434"/>
 														</object>
 														<string key="NSLabel">Factorials</string>
@@ -1620,14 +1620,14 @@
 														<reference key="NSTabView" ref="120189851"/>
 													</object>
 												</object>
-												<reference key="NSSelectedTabViewItem" ref="891295590"/>
+												<reference key="NSSelectedTabViewItem" ref="182649941"/>
 												<reference key="NSFont" ref="629695076"/>
 												<int key="NSTvFlags">2</int>
 												<bool key="NSAllowTruncatedLabels">YES</bool>
 												<bool key="NSDrawsBackground">YES</bool>
 												<object class="NSMutableArray" key="NSSubviews">
 													<bool key="EncodedWithXMLCoder">YES</bool>
-													<reference ref="928747792"/>
+													<reference ref="837342507"/>
 												</object>
 											</object>
 										</object>
@@ -5254,10 +5254,10 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
+							<string>NSTextField</string>
+							<string>NSTextField</string>
+							<string>NSTextField</string>
+							<string>NSPopUpButton</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -5273,19 +5273,19 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBToOneOutletInfo">
 								<string key="name">answerField</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">numberField</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">numberFieldtwo</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">operationPopup</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSPopUpButton</string>
 							</object>
 						</object>
 					</object>
@@ -5409,7 +5409,7 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSTextField</string>
-							<string>id</string>
+							<string>NSTextField</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -5427,7 +5427,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">numberField</string>
-								<string key="candidateClassName">id</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 						</object>
 					</object>
