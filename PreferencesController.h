@@ -12,7 +12,6 @@
 @interface PreferencesController : NSWindowController {
 @private
     IBOutlet NSButton *autoCalcCheck;
-
 }
 
 @end
