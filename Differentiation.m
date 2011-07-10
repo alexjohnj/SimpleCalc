@@ -8,7 +8,7 @@
 #import "Differentiation.h"
 
 @implementation Differentiation
-
+@synthesize prex, plusc, power, x, answerField;
 - (IBAction)differentiate:(id)sender {
 	double pre, pow;
 	[x setStringValue:@"X"];

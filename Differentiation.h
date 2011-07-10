@@ -9,11 +9,18 @@
 
 @interface Differentiation : NSObject {
     IBOutlet NSTextField *plusc;
-    IBOutlet id power;
-    IBOutlet id prex;
+    IBOutlet NSTextField *power;
+    IBOutlet NSTextField *prex;
     IBOutlet NSTextField *x;
 	IBOutlet NSTextField *answerField;
 }
+@property (assign) IBOutlet NSTextField *plusc;
+@property (assign) IBOutlet NSTextField *power;
+@property (assign) IBOutlet NSTextField *prex;
+@property (assign) IBOutlet NSTextField *x;
+@property (assign) IBOutlet NSTextField *answerField;
+
+
 - (IBAction)differentiate:(id)sender;
 - (IBAction)integrate:(id)sender;
 @end
