@@ -21,8 +21,4 @@
 -(void)dealloc{
     [super dealloc];
 }
-#pragma mark Setters & Getters
--(double)returnNumber{
-    return number;
-}
 @end

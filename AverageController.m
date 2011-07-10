@@ -44,7 +44,7 @@
     AverageModel *tempAverages;
     for (i = 0; i < [numbersArray count]; i++){
         tempAverages = [numbersArray objectAtIndex:i];
-        answer += tempAverages.number;
+        answer += [tempAverages number];
         tempAverages = nil; 
     }
     answer /= [numbersArray count];

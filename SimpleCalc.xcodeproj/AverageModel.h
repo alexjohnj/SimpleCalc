@@ -12,6 +12,5 @@
 @interface AverageModel : NSObject {
     double number;
 }
--(double)returnNumber;
-@property double number;
+@property (assign) double number;
 @end
