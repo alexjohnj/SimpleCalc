@@ -11,7 +11,7 @@
 @synthesize operationPopup, numberField, numberFieldtwo, answerField;
 
 #pragma mark Main Calculate Method
--(double)calculate{ //the main method for calculating sums, pretty self explanitory
+-(double)calculate{ //the main method for calculating sums, pretty self explanatory
     double num[2], answer;
 	int operation;
 	
@@ -35,47 +35,37 @@
 	[answerField setDoubleValue:[self calculate]]; 
 }
 
-- (IBAction)SetDivisionMenu:(id)sender { //checks to see if autocalc is enabled and if it isn't, doesn't do anything
+- (IBAction)SetDivisionMenu:(id)sender { //checks to see if autocalc is enabled 
 	[operationPopup selectItemAtIndex:3];    
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == YES)
-        [answerField setDoubleValue:[self calculate]];
-    else
-        return;
-        
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"]) //if it is enabled, calculate: method is called
+        [answerField setDoubleValue:[self calculate]]; 
 }
 
 - (IBAction)SetSubtractionMenu:(id)sender {
 	[operationPopup selectItemAtIndex:1];
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == YES)
-    [answerField setDoubleValue:[self calculate]];
-    else
-        return;
-    
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+        [answerField setDoubleValue:[self calculate]];
 }
 
 - (IBAction)setAdditionMenu:(id)sender {
 	[operationPopup selectItemAtIndex:0];  
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == YES)
-    [answerField setDoubleValue:[self calculate]];
-    else 
-        return;
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+        [answerField setDoubleValue:[self calculate]];
 }
 
 - (IBAction)setMultiplicationMenu:(id)sender {
 	[operationPopup selectItemAtIndex:2];
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == YES)
-    [answerField setDoubleValue:[self calculate]];
-    else
-        return;
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+        [answerField setDoubleValue:[self calculate]];
 }
 
-#pragma mark Indecies Indices
+#pragma mark Indices
 - (IBAction)squareNumber:(id)sender {
 	double num2, answer;
-
+    
 	num2 = [numberFieldtwo doubleValue];
 	answer = num2 * num2;
-
+    
 	[answerField setDoubleValue:answer];
 }
 
@@ -88,21 +78,18 @@
 }
 
 #pragma mark AutoCalc Code
--(void)controlTextDidChange:(NSNotification *)obj{ //this is used for autocalc. If autocalc is disabled, the method immediately terminates. Otherwise, as long as the text changes, the sum is constantly worked out. 
+-(void)controlTextDidChange:(NSNotification *)obj{ //this is used for autocalc. If autocalc is disabled, 
+    //the method immediately terminates. 
+    //Otherwise, as long as the text changes, 
+    //the sum is constantly worked out. 
     
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == NO)
-        return;
-    else{           
-           [answerField setDoubleValue:[self calculate]];
-    }
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+        [answerField setDoubleValue:[self calculate]];
 }
 
 -(IBAction)operationDidChange:(id)sender{
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == NO)
-        return;
-    else{
-    [answerField setDoubleValue:[self calculate]];
-    }  
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+        [answerField setDoubleValue:[self calculate]];
 }
 
 @end
