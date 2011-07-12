@@ -5,16 +5,18 @@
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl-280\ql\qnatural\pardirnatural
 
 \f0\fs24 \cf0 v3.3.2\
-- Bits of code have been tweaked to reduce memory usage & to make the code easier to read.\
-- Fixed a couple of memory leaks.\
+- Reduced memory usage slightly.\
+- Fixed several memory leaks.\
 - The AutoCalc checkbox in the preferences window is now guaranteed to be disabled on the first launch of the application. \
-- Made a couple of changes to the factorial system, mainly, the user can only enter 3 digits (since the maximum number that can be processed is 170) in order to prevent the application from slowing down by calculating the answer to massive numbers, from which it would produce no answer (other than infinity) anyway. \
-- Cleaned up the menu bar items.\
-- It's now possible to toggle automatic updating, automatic update checking and the frequency of update checking in the preferences window. \
+- Made a few changes to the factorial system, mainly, the user can only enter 3 digits now (since the maximum number that can be processed is 170) in order to prevent the application from slowing down by calculating the answer to massive numbers, from which it would produce no answer (other than infinity) anyway. \
+- Removed some unneeded menu bar items.\
+- It's now possible to toggle automatic updating, automatic update checking and alter the frequency of update checking in the preferences window. \
 \
 ***For Developers Interest Only***\
--The preferences system has been re-written using bindings and NSUserDefaultsController.\
--Now compiled with the LLVM 2.0 compiler.\
+- The preferences system has been re-written using bindings and NSUserDefaultsController.\
+- Now compiled with the LLVM 2.0 compiler.\
+- Source code files have been extensively commented.\
+- Project now uses git source control.\
 \
 v3.3.1\
 - More of SimpleCalc has been translated into Spanish.\
@@ -102,7 +104,7 @@ v2.0.1\
 v2.0:\
 - 64bit processing. \
 - Icon designed by James Quirk.\
-- More info added in about calc.\
+- More info added in about Calc.\
 - Calculate button now responds to return key.\
 - Answer Box is no longer selectable.\
 - Calculate button pulsates.\
