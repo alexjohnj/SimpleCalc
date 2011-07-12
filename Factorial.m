@@ -35,25 +35,30 @@
         }
     }
     [stringLengther release];
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == NO)
-        return;
-    else{
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
         [answerField setDoubleValue:[self factorialise]];
-    }
 }
 #pragma mark Factorise Main Method
 -(double)factorialise{
-    double answer, g, number;
+    double answer, g, number; //three variables, the users number, the answer and a copy of the users number (called g?). g will be decremented
 	number = [factorialField doubleValue];
-	int counter = 1;
+	int counter = 1; //a counter, for the while loop
     
-	answer = number;
-	g = number;
+	answer = number; //answer equals number so that we can multiply answer by g (the decremented number)
+	g = number; //assigning g the value of number
 	while (counter < number) {
-		g = g - 1;
-		answer = answer * g;
+		g = g - 1; //g is decreased by 1 so that we multiply be the next lowest number from the one the user typed
+		answer = answer * g; //answer is multiplied by g to (for reason in above line)
 		counter++;
 	}
     return answer;
+    /*
+     More details:
+     So factorials work by taking a number and multiplying it by every number below it. So if I want the factorial of the number 3 I do 3 * 2 * 1.
+     In this code, 3 is the variable number, the number the user entered and g is the number below 3 (so in this case 2) and then the number beneath that, and the number beneath that for x number if times where x = number. Answer starts off with the value of number. It's then multiplied by the value of g - 1. And then again, and again until g = 1, since g decreases by 1 each time. Again, answer is multiplied x number of times. A good equation for working out factorials is:
+     n! = n * (n - 1)!  (! = factorial)
+     
+     Confused? Just read the source code, it'll make more sense than my dodgy explanation. Not confused? Read the wikipedia article(http://en.wikipedia.org/wiki/Factorial) Then you'll be confused. 
+     */
 }
 @end

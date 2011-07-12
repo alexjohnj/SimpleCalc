@@ -27,11 +27,11 @@
 #pragma mark Status Bar Item Code
 -(void)awakeFromNib
 {
-    [self statusBarItem];
+    [self statusBarItem]; //This creates a status bar item on launch
 }
 
 - (void)toggleVisibilityOfMainWindow:(id)sender {
-    if ([mainWindow isKeyWindow]) {
+    if ([mainWindow isKeyWindow]) { //This method is used to show/hide the window when the status item is clicked
         [mainWindow orderOut:nil];
         return;
     }
@@ -40,8 +40,10 @@
 }
 -(void)statusBarItem{
     statusItem = [[[NSStatusBar systemStatusBar] 
-                   statusItemWithLength:NSSquareStatusItemLength] 
-                  retain];
+                   statusItemWithLength:NSSquareStatusItemLength]  
+                  retain];                                          //When in doubt call retain! Don't know if this should be retain or what 
+                                                                    //but it shuts up the static analyser. 
+                                                                    //(Comment it out and run the static analyser to see what I mean).
     [statusItem setImage: [NSImage imageNamed:@"MenuBarItem.png"]];
     [statusItem setEnabled:YES];
     [statusItem setHighlightMode:YES];
@@ -50,7 +52,7 @@
 }
 #pragma mark User Defaults Initialisation
 +(void)initialize{
-    NSDictionary *defaults = [NSDictionary dictionaryWithObject:
+    NSDictionary *defaults = [NSDictionary dictionaryWithObject:  //Use this method to register the defaults
                               [NSNumber numberWithBool:NO] 
                             forKey:@"autoCalcIsEnabled"];
     [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];

@@ -79,10 +79,9 @@
 
 #pragma mark AutoCalc Code
 -(void)controlTextDidChange:(NSNotification *)obj{ //this is used for autocalc. If autocalc is disabled, 
-    //the method immediately terminates. 
-    //Otherwise, as long as the text changes, 
-    //the sum is constantly worked out. 
-    
+                                                    //then nothing happens 
+                                                    //Otherwise, every time the text changes 
+                                                    //the sum is constantly worked out. 
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
         [answerField setDoubleValue:[self calculate]];
 }

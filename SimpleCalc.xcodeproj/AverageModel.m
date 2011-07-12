@@ -11,6 +11,9 @@
 
 @implementation AverageModel
 @synthesize number;
+
+//probably should just merge the model into the AverageController class, kind of a waste of space
+
 #pragma mark Object Methods
 -(id)init{
     [super init];

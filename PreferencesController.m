@@ -8,9 +8,7 @@
 
 #import "PreferencesController.h"
 
-NSString *SCAutoCalcKey = @"AutoCalcFlag";
 @implementation PreferencesController
-
 
 #pragma mark Initialisation Methods
 -(id)init{

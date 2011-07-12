@@ -38,11 +38,11 @@
     int i;
     AverageModel *tempAverages;
     for (i = 0; i < [numbersArray count]; i++){
-        tempAverages = [numbersArray objectAtIndex:i];
+        tempAverages = [numbersArray objectAtIndex:i]; //all we're doing here is adding together every number in the average array
         answer += [tempAverages number];
         tempAverages = nil; 
     }
-    answer /= [numbersArray count];
+    answer /= [numbersArray count]; //then dividing the total by the number of objects in the array leaving the mean
     [self setAverage:answer];
 }
 

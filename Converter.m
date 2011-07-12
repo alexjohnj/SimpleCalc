@@ -14,6 +14,8 @@
 @implementation Converter
 @synthesize numberField, answerField;
 #pragma mark Conversions Code
+//I'm pretty certain these methods are self explanatory.
+
 - (IBAction)ctof:(id)sender {
 	
 	float number, answer;
