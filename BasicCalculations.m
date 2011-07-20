@@ -12,21 +12,21 @@
 
 #pragma mark Main Calculate Method
 -(double)calculate{ //the main method for calculating sums, pretty self explanatory
-    double num[2], answer;
+    double numOne, numTwo, answer;
 	int operation;
 	
-	num[1] = [numberField doubleValue];
-	num[2] = [numberFieldtwo doubleValue];
+	numOne = [numberField doubleValue];
+	numTwo = [numberFieldtwo doubleValue];
     
 	operation = [operationPopup indexOfSelectedItem];
 	if (operation == 0)
-		answer = num[1] + num[2];
+		answer = numOne + numTwo;
 	else if (operation == 1)
-		answer = num[1] - num[2];
-	else if (operation == 2)
-		answer = num[1] * num[2];
+		answer = numOne - numTwo;
+	else if (operation == 2) 
+		answer = numOne * numTwo;
 	else 
-		answer = num[1] / num[2];
+		answer = numOne / numTwo;
     
     return answer;
 }
