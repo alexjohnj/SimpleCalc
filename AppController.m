@@ -53,7 +53,7 @@
 #pragma mark User Defaults Initialisation
 +(void)initialize{
     NSDictionary *defaults = [NSDictionary dictionaryWithObject:  //Use this method to register the defaults
-                              [NSNumber numberWithBool:NO] 
+                              [NSNumber numberWithBool:YES] 
                             forKey:@"autoCalcIsEnabled"];
     [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
 }
