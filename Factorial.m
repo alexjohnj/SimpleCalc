@@ -52,6 +52,7 @@
 		counter++;
 	}
     return answer;
+    
     /*
      More details:
      So factorials work by taking a number and multiplying it by every number below it. So if I want the factorial of the number 3 I do 3 * 2 * 1.
