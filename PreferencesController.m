@@ -12,7 +12,9 @@
 
 #pragma mark Initialisation Methods
 -(id)init{
-    if (![super initWithWindowNibName:@"Preferences"]) return nil;
+    if (![super initWithWindowNibName:@"Preferences"]) 
+        return nil;
+    
     return self;
 }
 
