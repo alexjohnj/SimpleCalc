@@ -28,6 +28,13 @@
 -(void)awakeFromNib
 {
     [self statusBarItem]; //This creates a status bar item on launch
+    
+    if(floor(NSAppKitVersionNumber) <= NSAppKitVersionNumber10_6){
+        [positiveXLabel setStringValue:@"+x="];
+        [negativeXLabel setStringValue:@"-x="];
+        [positiveXTextFieldCell setPlaceholderString:@"+x"];
+        [negativeXTextFieldCell setPlaceholderString:@"-x"];
+    }    
 }
 
 - (void)toggleVisibilityOfMainWindow:(id)sender {

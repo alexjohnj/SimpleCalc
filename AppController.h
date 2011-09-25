@@ -15,6 +15,12 @@
     PreferencesController *preferenceController;
     IBOutlet NSWindow *mainWindow;
     NSStatusItem *statusItem;
+    
+    //Quadratic UI IVars.
+    IBOutlet NSTextField *positiveXLabel;
+    IBOutlet NSTextField *negativeXLabel;
+    IBOutlet NSTextFieldCell *positiveXTextFieldCell;
+    IBOutlet NSTextFieldCell *negativeXTextFieldCell;
 }
 
 -(IBAction)showPreferences:(id)sender;
