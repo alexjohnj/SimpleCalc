@@ -7,12 +7,11 @@
 
 #import <Cocoa/Cocoa.h>
 @interface Quadratics : NSObject {
-    IBOutlet NSTextField *answerField;
-    IBOutlet NSTextField *fieldA;
-    IBOutlet NSTextField *fieldC;
-    IBOutlet NSTextField *negFieldB;
-    IBOutlet NSPopUpButton *popup;
-    IBOutlet NSTextField *posFieldB;
+    IBOutlet NSTextField *numberFieldA;
+    IBOutlet NSTextField *numberFieldB;
+    IBOutlet NSTextField *numberFieldC;
+    IBOutlet NSTextField *positiveXAnswerField;
+    IBOutlet NSTextField *negativeXAnswerField;
 }
 @property (assign) IBOutlet NSTextField *numberFieldA;
 @property (assign) IBOutlet NSTextField *numberFieldB;
@@ -20,7 +19,7 @@
 @property (assign) IBOutlet NSTextField *positiveXAnswerField;
 @property (assign) IBOutlet NSTextField *negativeXAnswerField;
 
-- (IBAction)calculate:(id)sender;
--(double)quadPositiveX;
--(double)quadNegativeX;
+-(IBAction)calculate:(id)sender;
+-(double)calculatePositiveX;
+-(double)calculateNegativeX;
 @end

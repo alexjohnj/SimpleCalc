@@ -572,7 +572,6 @@
 							<string key="NSFrame">{{13, 14}, {372, 273}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="133810661"/>
 							<int key="NSViewLayerContentsRedrawPolicy">2</int>
 							<object class="NSMutableArray" key="NSTabViewItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1048,7 +1047,6 @@
 												<string key="NSFrame">{{10, -1}, {332, 233}}</string>
 												<reference key="NSSuperview" ref="133810661"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="837342507"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<object class="NSMutableArray" key="NSTabViewItems">
 													<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1065,7 +1063,6 @@
 																	<string key="NSFrame">{{107, 25}, {98, 32}}</string>
 																	<reference key="NSSuperview" ref="837342507"/>
 																	<reference key="NSWindow"/>
-																	<reference key="NSNextKeyView"/>
 																	<int key="NSViewLayerContentsRedrawPolicy">2</int>
 																	<bool key="NSEnabled">YES</bool>
 																	<object class="NSButtonCell" key="NSCell" id="184148467">
@@ -1538,7 +1535,6 @@
 												<int key="NSvFlags">268</int>
 												<string key="NSFrame">{{254, 44}, {92, 25}}</string>
 												<reference key="NSSuperview" ref="991377045"/>
-												<reference key="NSNextKeyView"/>
 												<int key="NSViewLayerContentsRedrawPolicy">2</int>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSButtonCell" key="NSCell" id="369233487">
@@ -2361,14 +2357,6 @@
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">answerField</string>
-						<reference key="source" ref="686468696"/>
-						<reference key="destination" ref="441368409"/>
-					</object>
-					<int key="connectionID">805</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">answerField</string>
 						<reference key="source" ref="89566755"/>
 						<reference key="destination" ref="441368409"/>
 					</object>
@@ -2517,6 +2505,46 @@
 						<reference key="destination" ref="972006081"/>
 					</object>
 					<int key="connectionID">882</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">negativeXAnswerField</string>
+						<reference key="source" ref="686468696"/>
+						<reference key="destination" ref="301187505"/>
+					</object>
+					<int key="connectionID">895</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">numberFieldA</string>
+						<reference key="source" ref="686468696"/>
+						<reference key="destination" ref="382876226"/>
+					</object>
+					<int key="connectionID">896</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">numberFieldB</string>
+						<reference key="source" ref="686468696"/>
+						<reference key="destination" ref="318898077"/>
+					</object>
+					<int key="connectionID">897</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">numberFieldC</string>
+						<reference key="source" ref="686468696"/>
+						<reference key="destination" ref="775111328"/>
+					</object>
+					<int key="connectionID">898</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">positiveXAnswerField</string>
+						<reference key="source" ref="686468696"/>
+						<reference key="destination" ref="440739660"/>
+					</object>
+					<int key="connectionID">899</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -4274,7 +4302,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">894</int>
+			<int key="maxID">899</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -4820,16 +4848,10 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>answerField</string>
-							<string>fieldA</string>
-							<string>fieldC</string>
-							<string>negFieldB</string>
 							<string>negativeXAnswerField</string>
 							<string>numberFieldA</string>
 							<string>numberFieldB</string>
 							<string>numberFieldC</string>
-							<string>popup</string>
-							<string>posFieldB</string>
 							<string>positiveXAnswerField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -4837,12 +4859,6 @@
 							<string>NSTextField</string>
 							<string>NSTextField</string>
 							<string>NSTextField</string>
-							<string>NSTextField</string>
-							<string>NSTextField</string>
-							<string>NSTextField</string>
-							<string>NSTextField</string>
-							<string>NSTextField</string>
-							<string>NSPopUpButton</string>
 							<string>NSTextField</string>
 							<string>NSTextField</string>
 						</object>
@@ -4851,36 +4867,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>answerField</string>
-							<string>fieldA</string>
-							<string>fieldC</string>
-							<string>negFieldB</string>
 							<string>negativeXAnswerField</string>
 							<string>numberFieldA</string>
 							<string>numberFieldB</string>
 							<string>numberFieldC</string>
-							<string>popup</string>
-							<string>posFieldB</string>
 							<string>positiveXAnswerField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBToOneOutletInfo">
-								<string key="name">answerField</string>
-								<string key="candidateClassName">NSTextField</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">fieldA</string>
-								<string key="candidateClassName">NSTextField</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">fieldC</string>
-								<string key="candidateClassName">NSTextField</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">negFieldB</string>
-								<string key="candidateClassName">NSTextField</string>
-							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">negativeXAnswerField</string>
 								<string key="candidateClassName">NSTextField</string>
@@ -4895,14 +4889,6 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">numberFieldC</string>
-								<string key="candidateClassName">NSTextField</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">popup</string>
-								<string key="candidateClassName">NSPopUpButton</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">posFieldB</string>
 								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">

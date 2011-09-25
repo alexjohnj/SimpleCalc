@@ -32,24 +32,37 @@
 
 #pragma mark Button Methods
 - (IBAction)calculate:(id)sender {
-    //TODO: Impement
+    [self.positiveXAnswerField setDoubleValue:[self calculatePositiveX]];
+    [self.negativeXAnswerField setDoubleValue:[self calculateNegativeX]];
 }
-
-//- (IBAction)popupDidChange:(id)sender {
-//    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == NO)
-//        return;
-//    else
-//        [answerField setDoubleValue:[self quadMe]];
-//}
 
 #pragma mark Main Calculation Method
 
--(double)quadPositiveX{
-    
+-(double)calculatePositiveX{
+        double a, posb, negb, c, answer, answer2 = 0, posbsqred, root;
+        a = [self.numberFieldA doubleValue]; 
+        posb = [self.numberFieldB doubleValue];
+        negb = posb * -1; //this converts the number to it's negative form, if it posb is negative it becomes positive (since neg * neg = pos)
+        c = [self.numberFieldC doubleValue];
+        posbsqred = posb * posb; //equivalent to squaring posb
+        root = posbsqred - 4 * a * c;
+        answer = negb + sqrt(root);
+        answer2 = answer / (2 * a);
+        return answer2;
 }
 
--(double)quadNegativeX{
+-(double)calculateNegativeX{
+    double a, posb, negb, c, answer, answer2 = 0, posbsqred, root;	
+	a = [self.numberFieldA doubleValue]; 
+	posb = [self.numberFieldB doubleValue];
+	negb = posb * -1; //this converts the number to it's negative form, if it posb is negative it becomes positive (since neg * neg = pos)
+	c = [self.numberFieldC doubleValue];
+    posbsqred = posb * posb;
+    root = posbsqred - 4 * a * c;
+    answer = negb - sqrt(root);
+    answer2 = answer / (2 * a);
     
+    return answer2;
 }
 
 //-(double)quadMe{
@@ -76,11 +89,12 @@
 //		answer2 = answer / (2 * a);
 //	}
 //    return answer2;
-}
+//}
 #pragma mark AutoCalc
 -(void)controlTextDidChange:(NSNotification *)obj{
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
-        [answerField setDoubleValue:[self quadMe]];
+    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"]){
+        //TODO: Implement Method
+    }
 }
 
 @end
