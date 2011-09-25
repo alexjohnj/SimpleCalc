@@ -8,7 +8,8 @@
 #import "Quadratics.h"
 
 @implementation Quadratics
-@synthesize negFieldB, popup, posFieldB, fieldA, fieldC, answerField;
+@synthesize numberFieldA, numberFieldB, numberFieldC;
+@synthesize positiveXAnswerField, negativeXAnswerField;
 
 /*****If you don't know the quadratic equations is:
             x= -b±sqrt(b^2 - 4ac)
@@ -31,40 +32,50 @@
 
 #pragma mark Button Methods
 - (IBAction)calculate:(id)sender {
-    [answerField setDoubleValue:[self quadMe]];
+    //TODO: Impement
 }
 
-- (IBAction)popupDidChange:(id)sender {
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == NO)
-        return;
-    else
-        [answerField setDoubleValue:[self quadMe]];
-}
+//- (IBAction)popupDidChange:(id)sender {
+//    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"] == NO)
+//        return;
+//    else
+//        [answerField setDoubleValue:[self quadMe]];
+//}
+
 #pragma mark Main Calculation Method
--(double)quadMe{
-    double a, posb, negb, c, answer, answer2 = 0, posbsqred, root;
-	int operation;
-	
-	a = [fieldA doubleValue]; 
-	posb = [posFieldB doubleValue];
-	negb = posb * -1; //this converts the number to it's negative form, if it posb is negative it becomes positive (since neg * neg = pos)
-	c = [fieldC doubleValue];
-	
-	operation = [popup indexOfSelectedItem];
-	if (operation == 0){
-		posbsqred = posb * posb; //equivalent to squaring posb
-		root = posbsqred - 4 * a * c;
-		answer = negb + sqrt(root);
-		answer2 = answer / (2 * a);
-	}
-	
-	else if (operation == 1){
-		posbsqred = posb * posb;
-		root = posbsqred - 4 * a * c;
-		answer = negb - sqrt(root);
-		answer2 = answer / (2 * a);
-	}
-    return answer2;
+
+-(double)quadPositiveX{
+    
+}
+
+-(double)quadNegativeX{
+    
+}
+
+//-(double)quadMe{
+//    double a, posb, negb, c, answer, answer2 = 0, posbsqred, root;
+//	int operation;
+//	
+//	a = [fieldA doubleValue]; 
+//	posb = [posFieldB doubleValue];
+//	negb = posb * -1; //this converts the number to it's negative form, if it posb is negative it becomes positive (since neg * neg = pos)
+//	c = [fieldC doubleValue];
+//	
+//	operation = [popup indexOfSelectedItem];
+//	if (operation == 0){
+//		posbsqred = posb * posb; //equivalent to squaring posb
+//		root = posbsqred - 4 * a * c;
+//		answer = negb + sqrt(root);
+//		answer2 = answer / (2 * a);
+//	}
+//	
+//	else if (operation == 1){
+//		posbsqred = posb * posb;
+//		root = posbsqred - 4 * a * c;
+//		answer = negb - sqrt(root);
+//		answer2 = answer / (2 * a);
+//	}
+//    return answer2;
 }
 #pragma mark AutoCalc
 -(void)controlTextDidChange:(NSNotification *)obj{

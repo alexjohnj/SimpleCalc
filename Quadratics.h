@@ -14,14 +14,13 @@
     IBOutlet NSPopUpButton *popup;
     IBOutlet NSTextField *posFieldB;
 }
-@property (assign) IBOutlet NSTextField *answerField;
-@property (assign) IBOutlet NSTextField *fieldA;
-@property (assign) IBOutlet NSTextField *fieldC;
-@property (assign) IBOutlet NSTextField *negFieldB;
-@property (assign) IBOutlet NSTextField *posFieldB;
-@property (assign) IBOutlet NSPopUpButton *popup;
+@property (assign) IBOutlet NSTextField *numberFieldA;
+@property (assign) IBOutlet NSTextField *numberFieldB;
+@property (assign) IBOutlet NSTextField *numberFieldC;
+@property (assign) IBOutlet NSTextField *positiveXAnswerField;
+@property (assign) IBOutlet NSTextField *negativeXAnswerField;
 
 - (IBAction)calculate:(id)sender;
-- (IBAction)popupDidChange:(id)sender;
-- (double)quadMe;
+-(double)quadPositiveX;
+-(double)quadNegativeX;
 @end
