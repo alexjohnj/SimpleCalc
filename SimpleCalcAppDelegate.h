@@ -6,7 +6,7 @@
 //  Copyright 2011 SimpleCode. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 @interface SimpleCalcAppDelegate : NSObject <NSApplicationDelegate>{
     IBOutlet NSWindow *window;

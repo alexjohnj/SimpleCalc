@@ -11,8 +11,18 @@
 @implementation SimpleCalcAppDelegate
 @synthesize window;
 
+NSString * const statusBarModeKey = @"statusBarMode";
+
 -(void)applicationDidFinishLaunching:(NSNotification *)notification{
     
+}
+
+-(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
+    if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarModeKey])
+        return NO;
+    
+    else 
+        return YES;
 }
 
 @end
