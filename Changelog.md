@@ -4,6 +4,7 @@
 - AutoCalc is now enabled by default since it works brilliantly.
 - The quadratics UI has been refreshed and the code and functionality is now inline with SimpleQuads.
 - Incredibly minor UI changes.
+- Added status bar mode. Enabling this mode causes SimpleCalc to run in the background with a status bar item when the window is closed as it has done in the past. Disabling removes the status bar item and causes SimpleCalc to terminate when the window is closed. 
 
 # SimpleCalc 3.3.2 #
 ## July 20th, 2011 ##
@@ -69,4 +70,4 @@
 - Added the ability to carry out conversions e.g cm - m, feet - m etc.
 - The name of the project has been standardised to SimpleCalc.
 
-## The design for this release notes page was inspired by the wonderful [Smaller](http://smallerapp.com) applications release notes page. 
+## The design for this release notes page was inspired by the wonderful [Smaller's](http://smallerapp.com) release notes page. 
