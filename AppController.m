@@ -10,6 +10,8 @@
 
 
 @implementation AppController
+@synthesize statusItem;
+
 #pragma mark Preferences Window Code
 
 NSString * const autoCalcIsEnabled = @"autoCalcIsEnabled";
@@ -62,11 +64,18 @@ NSString * const statusBarMode = @"statusBarMode";
     [statusItem setTarget:self];
     [statusItem setAction:@selector(toggleVisibilityOfMainWindow:)];
 }
+
+-(IBAction)toggleStatusBarMode:(id)sender{
+    if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarMode]){
+        [self statusBarItem];
+    }
+    
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:statusBarMode]){
+        [[NSStatusBar systemStatusBar] removeStatusItem:[self statusItem]];
+    }
+}
 #pragma mark User Defaults Initialisation
 +(void)initialize{
-//    NSDictionary *defaults = [NSDictionary dictionaryWithObject:  //Use this method to register the defaults
-//                              [NSNumber numberWithBool:YES] 
-//                            forKey:@"autoCalcIsEnabled"];
     NSArray *objectsArray = [[NSArray alloc] initWithObjects:[NSNumber numberWithBool:YES], [NSNumber numberWithBool:NO] ,nil];
     NSArray *keysArray = [[NSArray alloc] initWithObjects:autoCalcIsEnabled, statusBarMode, nil];
     NSDictionary *defaults = [[NSDictionary alloc] initWithObjects:objectsArray forKeys:keysArray];

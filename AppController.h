@@ -23,7 +23,12 @@
     IBOutlet NSTextFieldCell *negativeXTextFieldCell;
 }
 
+@property (retain) NSStatusItem *statusItem;
+
 -(IBAction)showPreferences:(id)sender;
+
+-(IBAction)toggleStatusBarMode:(id)sender;
+
 -(void)toggleVisibilityOfMainWindow:(id)sender;
 -(void)statusBarItem;
 @end
