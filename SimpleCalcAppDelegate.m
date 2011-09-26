@@ -11,7 +11,7 @@
 @implementation SimpleCalcAppDelegate
 @synthesize window;
 
-NSString * const statusBarModeKey = @"statusBarMode";
+static NSString * const statusBarModeKey = @"statusBarMode";
 
 -(void)applicationDidFinishLaunching:(NSNotification *)notification{
     
