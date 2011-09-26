@@ -16,6 +16,7 @@
 		FA2C3A92137D2EAF001BAFBD /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2C3A94137D2EAF001BAFBD /* Preferences.xib */; };
 		FA2D9C8C1301A4BA00DF2D5B /* BasicCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D9C8B1301A4BA00DF2D5B /* BasicCalculations.m */; };
 		FA2D9CBF1301A9A600DF2D5B /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2D9CBE1301A9A600DF2D5B /* Converter.m */; };
+		FA3CA0C61430FB43006CE2F4 /* SimpleCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3CA0C51430FB43006CE2F4 /* SimpleCalcAppDelegate.m */; };
 		FA5047A212F9E802005AA4BA /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5047A112F9E802005AA4BA /* Sparkle.framework */; };
 		FA5047AE12F9E80F005AA4BA /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5047A112F9E802005AA4BA /* Sparkle.framework */; };
 		FA5047C012F9E8BF005AA4BA /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FA5047BF12F9E8BF005AA4BA /* dsa_pub.pem */; };
@@ -72,6 +73,8 @@
 		FA2D9C8B1301A4BA00DF2D5B /* BasicCalculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCalculations.m; sourceTree = "<group>"; };
 		FA2D9CBD1301A9A600DF2D5B /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FA2D9CBE1301A9A600DF2D5B /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		FA3CA0C41430FB43006CE2F4 /* SimpleCalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCalcAppDelegate.h; sourceTree = "<group>"; };
+		FA3CA0C51430FB43006CE2F4 /* SimpleCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalcAppDelegate.m; sourceTree = "<group>"; };
 		FA5047A112F9E802005AA4BA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		FA5047BF12F9E8BF005AA4BA /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		FA52A494137D2378003B9C95 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FA3CA0C41430FB43006CE2F4 /* SimpleCalcAppDelegate.h */,
+				FA3CA0C51430FB43006CE2F4 /* SimpleCalcAppDelegate.m */,
 				FAA4C99B13685EC80029FC88 /* PreferencesController.h */,
 				FAA4C99C13685EC80029FC88 /* PreferencesController.m */,
 				FAA4C99813685D2E0029FC88 /* AppController.h */,
@@ -293,6 +298,7 @@
 				FAA4C99D13685EC80029FC88 /* PreferencesController.m in Sources */,
 				FA0057741375411D006636D5 /* AverageModel.m in Sources */,
 				FA005777137541CA006636D5 /* AverageController.m in Sources */,
+				FA3CA0C61430FB43006CE2F4 /* SimpleCalcAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
