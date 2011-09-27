@@ -11,6 +11,9 @@
 @synthesize operationPopup, numberField, numberFieldtwo, answerField;
 
 #pragma mark Main Calculate Method
+
+static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
+
 -(double)calculate{ //the main method for calculating sums, pretty self explanatory
     double numOne, numTwo, answer;
 	int operation;
@@ -37,25 +40,25 @@
 
 - (IBAction)SetDivisionMenu:(id)sender { //checks to see if autocalc is enabled 
 	[operationPopup selectItemAtIndex:3];    
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"]) //if it is enabled, calculate: method is called
+    if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey]) //if it is enabled, calculate: method is called
         [answerField setDoubleValue:[self calculate]]; 
 }
 
 - (IBAction)SetSubtractionMenu:(id)sender {
 	[operationPopup selectItemAtIndex:1];
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+    if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
 
 - (IBAction)setAdditionMenu:(id)sender {
 	[operationPopup selectItemAtIndex:0];  
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+    if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
 
 - (IBAction)setMultiplicationMenu:(id)sender {
 	[operationPopup selectItemAtIndex:2];
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+    if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
 
@@ -82,12 +85,12 @@
                                                     //then nothing happens 
                                                     //Otherwise, every time the text changes 
                                                     //the sum is constantly worked out. 
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
 
 -(IBAction)operationDidChange:(id)sender{
-    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
 
