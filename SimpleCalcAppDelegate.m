@@ -18,8 +18,8 @@ static NSString * const statusBarModeKey = @"statusBarMode";
 }
 
 -(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
-    if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarModeKey])
-        return NO;
+    if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarModeKey]) 
+        return NO; //Since the checkbox for statusBarModeKey will be enabled (YES) then we have to return NO here. 
     
     else 
         return YES;

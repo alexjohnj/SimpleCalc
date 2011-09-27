@@ -10,6 +10,10 @@
 
 @implementation Factorial
 @synthesize window, answerField, factorialField;
+
+static NSString *const seenFactorialWarningKey = @"seenFactorialWarning";
+static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
+
 #pragma mark Button Code
 - (IBAction)calculate:(id)sender {	
 	[answerField setDoubleValue:[self factorialise]];
@@ -21,21 +25,21 @@
         NSBeep();
         [factorialField abortEditing];
         
-        if([[NSUserDefaults standardUserDefaults] boolForKey:@"seenFactorialWarning"] == NO) //check to see if user has seen warning
+        if([[NSUserDefaults standardUserDefaults] boolForKey:seenFactorialWarningKey] == NO) //check to see if user has seen warning
             tries++; //if user hasn't, warning is displayed
         
-        if(tries == 3 && [[NSUserDefaults standardUserDefaults] boolForKey:@"seenFactorialWarning"] == NO){ //check value of tries, and if user has seen warning
+        if(tries == 3 && [[NSUserDefaults standardUserDefaults] boolForKey:seenFactorialWarningKey] == NO){ //check value of tries, and if user has seen warning
             NSAlert *noBiggerAlert = [NSAlert alertWithMessageText:@"Why can't I go any bigger?"
                                                      defaultButton:@"OK" 
                                                    alternateButton:nil 
                                                        otherButton:nil 
                                          informativeTextWithFormat:@"The Maximum Number you can work out the factorial of is 170. Any higher will produce no answer and will slow your computer down."];
             [noBiggerAlert beginSheetModalForWindow:window modalDelegate:self didEndSelector:nil contextInfo:nil];
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"seenFactorialWarning"];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:seenFactorialWarningKey];
         }
     }
     [stringLengther release];
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"autoCalcIsEnabled"])
+    if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self factorialise]];
 }
 #pragma mark Factorise Main Method
