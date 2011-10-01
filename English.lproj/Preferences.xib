@@ -282,7 +282,7 @@
 						<object class="NSButton" id="952068872">
 							<reference key="NSNextResponder" ref="1056422664"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{18, 110}, {203, 18}}</string>
+							<string key="NSFrame">{{18, 110}, {125, 18}}</string>
 							<reference key="NSSuperview" ref="1056422664"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="269935034"/>
@@ -291,7 +291,7 @@
 							<object class="NSButtonCell" key="NSCell" id="696248264">
 								<int key="NSCellFlags">-2080244224</int>
 								<int key="NSCellFlags2">0</int>
-								<string key="NSContents">Run SimpleCalc in status bar</string>
+								<string key="NSContents">Status bar mode</string>
 								<reference key="NSSupport" ref="193093848"/>
 								<string key="NSCellIdentifier">_NS:239</string>
 								<reference key="NSControlView" ref="952068872"/>

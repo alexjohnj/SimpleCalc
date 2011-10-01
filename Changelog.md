@@ -2,11 +2,12 @@
 
 - The Spanish UI is no longer gigantic and its size is now much closer to the English & Italian UI's. 
 - AutoCalc is now enabled by default since it works brilliantly.
-- The quadratics UI has been refreshed and the code and functionality is now inline with SimpleQuads.
+- The quadratics UI has been refreshed to make it susbtantially easier to use. 
 - Incredibly minor UI changes.
 - Added status bar mode. Enabling this mode causes SimpleCalc to run in the background with a status bar item when the window is closed as it has done in the past. Disabling removes the status bar item and causes SimpleCalc to terminate when the window is closed. 
 
 # SimpleCalc 3.3.2 #
+
 ## July 20th, 2011 ##
 
 - This update is fully compatible with OS X Lion.
