@@ -1,9 +1,13 @@
+#SimpleCalc 3.3.4 #
+
 # SimpleCalc 3.3.3 #
+
+## October 1st, 2011 ##
 
 - The Spanish UI is no longer gigantic and its size is now much closer to the English & Italian UI's. 
 - AutoCalc is now enabled by default since it works brilliantly.
-- The quadratics UI has been refreshed to make it susbtantially easier to use. 
-- Incredibly minor UI changes.
+- The quadratics UI has been refreshed to make it substantially easier to use. 
+- Incredibly minor UI changes elsewhere.
 - Added status bar mode. Enabling this mode causes SimpleCalc to run in the background with a status bar item when the window is closed as it has done in the past. Disabling removes the status bar item and causes SimpleCalc to terminate when the window is closed. 
 
 # SimpleCalc 3.3.2 #
@@ -37,7 +41,7 @@
 # SimpleCalc 3.3 #
 ## May 8th, 2011 ##
 
-- Completely re-written the method for working out averges (again!) to make it cleaner and faster (for developers interest, it now uses bindings).
+- Completely re-written the method for working out averages (again!) to make it cleaner and faster (for developers interest, it now uses bindings).
 - The averages table now begins editing an entry on insert so as soon as you click the '+' button you begin editing the number.
 - You can now select multiple numbers in the averages table by holding the command key and clicking on numbers.
 - Can now remove multiple numbers at once rather than one at a time.
