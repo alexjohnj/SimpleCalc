@@ -74,15 +74,4 @@ static NSString * const statusBarMode = @"statusBarMode";
         [[NSStatusBar systemStatusBar] removeStatusItem:[self statusItem]];
     }
 }
-#pragma mark User Defaults Initialisation
-+(void)initialize{
-    NSArray *objectsArray = [[NSArray alloc] initWithObjects:[NSNumber numberWithBool:YES], [NSNumber numberWithBool:NO] ,nil];
-    NSArray *keysArray = [[NSArray alloc] initWithObjects:autoCalcIsEnabled, statusBarMode, nil];
-    NSDictionary *defaults = [[NSDictionary alloc] initWithObjects:objectsArray forKeys:keysArray];
-    [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
-    
-    [defaults release];
-    [objectsArray release];
-    [keysArray release];
-}
 @end
