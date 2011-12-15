@@ -1,0 +1,807 @@
+TSimpleCalc
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/MainMenu.xib"
+cCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/MainMenu.xib"
+cCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/it.lproj/MainMenu.xib"
+cCpResource icon.icns build/Release/SimpleCalc.app/Contents/Resources/icon.icns
+cCpResource MenuBarItem.png build/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png
+cCpResource dsa_pub.pem build/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pem
+cCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/Preferences.xib"
+cCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib"
+cCpResource Credits.rtf build/Release/SimpleCalc.app/Contents/Resources/Credits.rtf
+cProcessPCH /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch.pth SimpleCalc_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch.pth SimpleCalc_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc" normal x86_64
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc" normal i386
+cCreateUniversalBinary "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc" normal "x86_64 i386"
+cGenerateDSYMFile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc"
+cPBXCp Sparkle.framework build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework
+cTouch "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app"
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004EAC6A0E0000000000006560
+t1319922190
+s25952
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m
+c000000004EB6ECC10000000000000A1F
+t1320611009
+s2591
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m
+c000000004EB6ECC100000000000006FB
+t1320611009
+s1787
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m
+c000000004EB6ECC10000000000000BD3
+t1320611009
+s3027
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m
+c000000004EB6ECC10000000000000B77
+t1320611009
+s2935
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Credits.rtf
+c000000004EB6ECC1000000000000084C
+t1320611009
+s2124
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m
+c000000004EB6ECC10000000000000365
+t1320611009
+s869
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/InfoPlist.strings
+c000000004EB6ECC1000000000000005C
+t1320611009
+s92
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/MainMenu.xib
+c000000004EB6F58800000000000396FB
+t1320613256
+s235259
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/Preferences.xib
+c000000004EB6ECC1000000000000A029
+t1320611009
+s41001
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m
+c000000004EB6ECC10000000000000E4B
+t1320611009
+s3659
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/MenuBarItem.png
+c000000004EB6ECC10000000000000624
+t1320611009
+s1572
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m
+c000000004EB6ECC100000000000001AD
+t1320611009
+s429
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m
+c000000004EB6ECC10000000000000983
+t1320611009
+s2435
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m
+c000000004EB6ECC100000000000001C4
+t1320611009
+s452
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m
+c000000004EB6ECC1000000000000051B
+t1320611009
+s1307
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc_Prefix.pch
+c000000004EB6ECC1000000000000008B
+t1320611009
+s139
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework
+c000000004EB6ECC100000000000000CC
+t1320611009
+s204
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Sparkle
+c000000004EB6ECC100000000000712B4
+t1320611009
+s463540
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/Credits.rtf
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/Preferences.nib
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pem
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/es.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/es.lproj/Preferences.nib
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/icon.icns
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/it.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc.LinkFileList
+c000000004EBFE3FA000000000000054E
+t1321198586
+s1358
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc.LinkFileList
+c000000004EBFE3FA0000000000000564
+t1321198586
+s1380
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/dsa_pub.pem
+c000000004EB6ECC1000000000000049A
+t1320611009
+s1178
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/MainMenu.xib
+c000000004EB6ECC100000000000365F9
+t1320611009
+s222713
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib
+c000000004EB6ECC10000000000009EC7
+t1320611009
+s40647
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/icon.icns
+c000000004EB6ECC1000000000002BC2D
+t1320611009
+s179245
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/it.lproj/MainMenu.xib
+c000000004EB6ECC1000000000003702D
+t1320611009
+s225325
+
+N/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m
+c000000004EB6ECC10000000000000108
+t1320611009
+s264
+
+N/var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch.pth
+t1321198506
+s11047132
+
+N/var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch.pth
+t1321198506
+s11591204
+
+NInfo.plist
+c000000004EBFE3F50000000000000477
+t1321198581
+s1143
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies077cbe791b70b441^9cc4387a1b70b441^---0#1#0#--18"Check dependencies36"567F5B5A-2E27-4AA9-BDCC-34AD8F5B8406-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.188243
+e342891390.389833
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m1059307e1b70b441^ff03647e1b70b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/AppController.m0000000000000000^2286"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.o AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AppController.o"36"314E01CD-C6FE-4AF4-B433-2AF20539B759-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.477136
+e342891390.670425
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.mda577a7e1b70b441^c7a0ab7e1b70b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/AverageController.m0000000000000000^2306"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.o AverageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageController.o"36"B391C656-D723-4EB3-8A8E-064C09278209-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.392149
+e342891390.475696
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.me78c647e1b70b441^60cd797e1b70b441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m0000000000000000^2323"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.o SimpleCalc.xcodeproj/AverageModel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/AverageModel.o"36"53409DC5-0382-40ED-B7D2-1AD50AEF2D09-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.936045
+e342891390.170482
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m54c6ef7d1b70b441^7ae02b7e1b70b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/BasicCalculations.m0000000000000000^2306"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.o BasicCalculations.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/BasicCalculations.o"36"B3829730-3FD8-4DDF-A39E-0CFF9A2D51CD-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.014480
+e342891390.169794
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.mf3e7037e1b70b441^89b62b7e1b70b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Converter.m0000000000000000^2266"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.o Converter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Converter.o"36"DFB800E8-A7C8-4ED5-83EE-33F2703E8135-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.830030
+e342891390.013195
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.ma5a3d47d1b70b441^2365037e1b70b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Differentiation.m0000000000000000^2296"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.o Differentiation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Differentiation.o"36"6043C860-03CF-4137-8E0C-58F463E69D76-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.171530
+e342891390.344882
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.mf48c317e1b70b441^8d44587e1b70b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Factorial.m0000000000000000^2266"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.o Factorial.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Factorial.o"36"EB832733-C3DC-49B4-BED0-5FBD71F203F6-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.346306
+e342891390.498108
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.md1085a7e1b70b441^5706817e1b70b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/PreferencesController.m0000000000000000^2326"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.o PreferencesController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/PreferencesController.o"36"1D84C717-7052-4B49-B84B-FF0E196DDA1F-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.650703
+e342891389.934722
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.maebaa67d1b70b441^fd4eef7d1b70b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Quadratics.m0000000000000000^2271"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.o Quadratics.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/Quadratics.o"36"18421EAD-6E6D-486E-9034-057D1B85F883-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891390.548625
+e342891390.679447
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m31b68c7e1b70b441^2cf0ad7e1b70b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/SimpleCalcAppDelegate.m0000000000000000^2326"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.o SimpleCalcAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalcAppDelegate.o"36"3BED554A-1947-4113-A327-9E4AB899D28D-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.593731
+e342891389.684567
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m1023987d1b70b441^db88af7d1b70b441^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/main.m0000000000000000^2241"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/i386" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/main.o"36"54914D73-9A43-44BF-8C79-C421C71A7E8B-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.065365
+e342891389.237156
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m6f65157d1b70b441^32773d7d1b70b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/AppController.m0000000000000000^2298"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.o AppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AppController.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AppController.o"36"A9EE13A6-62E3-4B60-9846-2D694BA281DD-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.400362
+e342891389.648132
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.mf9a1667d1b70b441^b9fea57d1b70b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/AverageController.m0000000000000000^2318"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.o AverageController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/AverageController.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageController.o"36"F37EBDED-D0C1-42FB-976C-12F482825C7E-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.278658
+e342891389.399000
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.mbe83477d1b70b441^6630667d1b70b441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m0000000000000000^2335"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.o SimpleCalc.xcodeproj/AverageModel.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalc.xcodeproj/AverageModel.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/AverageModel.o"36"631B220A-7FD8-4D80-9A70-8E8FE9E76A27-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891388.743275
+e342891389.031355
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m266dbe7c1b70b441^5722087d1b70b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/BasicCalculations.m0000000000000000^2318"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.o BasicCalculations.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/BasicCalculations.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/BasicCalculations.o"36"FF5F30F5-580D-4023-BD8A-CCF043EA3CB1-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891388.812327
+e342891389.060349
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.ma168d27c1b70b441^9d830f7d1b70b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Converter.m0000000000000000^2278"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.o Converter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Converter.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Converter.o"36"2230F35E-DBF9-438B-A35E-D947D1AAC3A8-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891388.541155
+e342891388.810993
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.me5b58a7c1b70b441^c79ccf7c1b70b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Differentiation.m0000000000000000^2308"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.o Differentiation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Differentiation.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Differentiation.o"36"6611581B-7145-412A-9C54-3CC8F2198382-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.033970
+e342891389.252609
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m5eda087d1b70b441^ecfb407d1b70b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Factorial.m0000000000000000^2278"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.o Factorial.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Factorial.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Factorial.o"36"789A0E7A-F388-4DF2-85B7-BAA670819787-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.243161
+e342891389.433050
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.md7673e7d1b70b441^8ecd6e7d1b70b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/PreferencesController.m0000000000000000^2338"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.o PreferencesController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/PreferencesController.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/PreferencesController.o"36"F0F13341-C27B-4AC3-A7B0-8797C240650D-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891388.430621
+e342891388.742035
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m89626e7c1b70b441^38f5bd7c1b70b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Quadratics.m0000000000000000^2283"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.o Quadratics.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Quadratics.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/Quadratics.o"36"9AF59F9A-9494-4469-BD99-A10D24A9DAEF-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891389.437150
+e342891389.592358
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.mab26707d1b70b441^3bdf977d1b70b441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/SimpleCalcAppDelegate.m0000000000000000^2338"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.o SimpleCalcAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/SimpleCalcAppDelegate.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalcAppDelegate.o"36"AF01806E-69D1-4A98-A311-CE47316ED6F9-
+
+CCompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s342891388.429724
+e342891388.539752
+r1
+xCompileC
+xbuild/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.o
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m99286e7c1b70b441^13d28a7c1b70b441^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/main.m0000000000000000^2253"CompileC build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-generated-files.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-own-target-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-all-target-headers.hmap" -iquote "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/SimpleCalc-project-headers.hmap" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/include" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources/x86_64" "-I/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/DerivedSources" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -include /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch -MMD -MT dependencies -MF "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.d" -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/main.m" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/main.o"36"B20AE35F-EDDC-48A5-AC3D-F8319B673886-
+
+CCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/MainMenu.xib"
+s342891386.287550
+e342891386.822809
+r1
+xCompileXIB
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/MainMenu.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/MainMenu.xib64cc497a1b70b441^26a7d27a1b70b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/English.lproj/MainMenu.xib0000000000000000^471"CompileXIB English.lproj/MainMenu.xib    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.7.sdk36"3837300B-A824-4B43-98F0-4F3E9CC7919B-
+
+CCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/Preferences.xib"
+s342891386.850865
+e342891388.409556
+r1
+xCompileXIB
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/Preferences.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/Preferences.xib8f17da7a1b70b441^f2ea687c1b70b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/English.lproj/Preferences.xib0000000000000000^480"CompileXIB English.lproj/Preferences.xib    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/Preferences.nib" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/English.lproj/Preferences.xib" --sdk /Developer/SDKs/MacOSX10.7.sdk36"ECFA01C3-4905-47B4-9D1B-B1C940623B0A-
+
+CCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/MainMenu.xib"
+s342891386.331541
+e342891386.705986
+r1
+xCompileXIB
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/MainMenu.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/MainMenu.xib76ff547a1b70b441^e813b57a1b70b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/es.lproj/MainMenu.xib0000000000000000^456"CompileXIB es.lproj/MainMenu.xib    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/es.lproj/MainMenu.nib" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.7.sdk36"A5598B4C-71E7-4FDE-BF33-87BF03F85B4C-
+
+CCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib"
+s342891387.529974
+e342891387.615739
+r1
+xCompileXIB
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib:21: note: View is clipping its content [13]
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compiling /Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xibabec877b1b70b441^83a29d7b1b70b441^-148"/* com.apple.ibtool.document.notices *//Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib:21: note: View is clipping its content [13]1(21%IDEActivityLogMessage2@28"View is clipping its content-342891387#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@81"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/es.lproj/Preferences.xib0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/es.lproj/Preferences.xib0000000000000000^465"CompileXIB es.lproj/Preferences.xib    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/es.lproj/Preferences.nib" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/es.lproj/Preferences.xib" --sdk /Developer/SDKs/MacOSX10.7.sdk36"C7AD93A3-F227-4635-A333-765F3B9775D1-
+
+CCompileXIB "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/it.lproj/MainMenu.xib"
+s342891386.707873
+e342891387.502629
+r1
+xCompileXIB
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/it.lproj/MainMenu.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/Alex/Dropbox/Mac Dev/SimpleCalc/it.lproj/MainMenu.xib795bb57a1b70b441^f4bf807b1b70b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/it.lproj/MainMenu.xib0000000000000000^456"CompileXIB it.lproj/MainMenu.xib    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/it.lproj/MainMenu.nib" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/it.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.7.sdk36"793D651B-F05B-4AA4-8D98-9A6EA82B790F-
+
+CCopyStringsFile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s342891386.277625
+e342891386.313168
+r1
+xCopyStringsFile
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringsdf32477a1b70b441^8690577a1b70b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/English.lproj/InfoPlist.strings0000000000000000^405"CopyStringsFile build/Release/SimpleCalc.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/English.lproj" -- English.lproj/InfoPlist.strings36"B1FF7475-2F2F-404C-B93D-B85FE708E3F7-
+
+CCpResource Credits.rtf build/Release/SimpleCalc.app/Contents/Resources/Credits.rtf
+s342891387.617096
+e342891387.620220
+r1
+xCpResource
+xCredits.rtf
+xbuild/Release/SimpleCalc.app/Contents/Resources/Credits.rtf
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/SimpleCalc.app/Contents/Resources/Credits.rtf8c109e7b1b70b441^7cd19e7b1b70b441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/Credits.rtf00008075d6011042^406"CpResource Credits.rtf build/Release/SimpleCalc.app/Contents/Resources/Credits.rtf    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Credits.rtf" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources"36"ACB5FC7D-6996-4E80-890A-A333124CC093-
+
+CCpResource MenuBarItem.png build/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png
+s342891386.836978
+e342891386.840557
+r1
+xCpResource
+xMenuBarItem.png
+xbuild/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png5b5dd67a1b70b441^8a3ed77a1b70b441^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png00f454acddffdf42^418"CpResource MenuBarItem.png build/Release/SimpleCalc.app/Contents/Resources/MenuBarItem.png    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/MenuBarItem.png" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources"36"C78DD28C-0466-4844-A094-FD694EE24610-
+
+CCpResource dsa_pub.pem build/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pem
+s342891386.841879
+e342891386.849453
+r1
+xCpResource
+xdsa_pub.pem
+xbuild/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pem
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pemf19ed77a1b70b441^5183d97a1b70b441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pem00f454acddffdf42^406"CpResource dsa_pub.pem build/Release/SimpleCalc.app/Contents/Resources/dsa_pub.pem    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/dsa_pub.pem" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources"36"2B3DD89D-01FE-40FD-98F2-8F2B92393316-
+
+CCpResource icon.icns build/Release/SimpleCalc.app/Contents/Resources/icon.icns
+s342891386.824574
+e342891386.832219
+r1
+xCpResource
+xicon.icns
+xbuild/Release/SimpleCalc.app/Contents/Resources/icon.icns
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release/SimpleCalc.app/Contents/Resources/icon.icns552fd37a1b70b441^807fd67a1b70b441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources/icon.icns00f454acddffdf42^400"CpResource icon.icns build/Release/SimpleCalc.app/Contents/Resources/icon.icns    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/icon.icns" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Resources"36"824135FD-7A9E-433C-BC62-AE4DAD2C73B7-
+
+CCreateUniversalBinary "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc" normal "x86_64 i386"
+s342891390.776871
+e342891390.786886
+r1
+xCreateUniversalBinary
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc
+xnormal
+xx86_64 i386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Create universal binary /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc0400c77e1b70b441^f488c97e1b70b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc00f454acddffdf42^518"CreateUniversalBinary build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc normal "x86_64 i386"    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    /usr/bin/lipo -create "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc" -output "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc"36"6AE141BD-69E4-443D-BB44-227A5122596B-
+
+CGenerateDSYMFile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc"
+s342891390.793672
+e342891390.860044
+r1
+xGenerateDSYMFile
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generating /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM3047cb7e1b70b441^732bdc7e1b70b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM00f454acddffdf42^360"GenerateDSYMFile build/Release/SimpleCalc.app.dSYM build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    /Developer/usr/bin/dsymutil "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/MacOS/SimpleCalc" -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app.dSYM"36"FC50F852-157C-438D-897A-87CD027057A3-
+
+CLd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc" normal i386
+s342891390.685958
+e342891390.769806
+r1
+xLd
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc8db5af7e1b70b441^ec12c57e1b70b441^---0#0#0#--749"Ld build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc normal i386    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -filelist "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Sparkle -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/i386/SimpleCalc"36"BD82675B-7DB5-4D3A-BA92-466CEFF3E114-
+
+CLd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc" normal x86_64
+s342891389.694443
+e342891389.828662
+r1
+xLd
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc03eab17d1b70b441^1422d47d1b70b441^---0#0#0#--759"Ld build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc normal x86_64    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release" "-F/Users/Alex/Dropbox/Mac Dev/SimpleCalc" -filelist "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Sparkle -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/SimpleCalc.build/Release/SimpleCalc.build/Objects-normal/x86_64/SimpleCalc"36"BC4CCCA7-8AA6-42E4-A840-05A6A43C9E81-
+
+CPBXCp Sparkle.framework build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework
+s342891390.867944
+e342891391.296952
+r1
+xPBXCp
+xSparkle.framework
+xbuild/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework1b49de7e1b70b441^be164c7f1b70b441^-1384"/usr/bin/strip -S /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Resources/relaunch -o /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework/Resources/relaunch /usr/bin/strip -S /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Sparkle -o /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework/Sparkle /usr/bin/strip -S /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Versions/A/Resources/relaunch -o /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch /usr/bin/strip -S /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Versions/A/Sparkle -o /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle /usr/bin/strip -S /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Versions/Current/Resources/relaunch -o /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Resources/relaunch /usr/bin/strip -S /Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework/Versions/Current/Sparkle -o /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework/Versions/Current/Sparkle -0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework00f454acddffdf42^421"PBXCp Sparkle.framework build/Release/SimpleCalc.app/Contents/Frameworks/Sparkle.framework    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/Sparkle.framework" "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Frameworks"36"E1B7D37A-24C1-403A-8C7C-5521CC302BDF-
+
+CProcessInfoPlistFile "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Info.plist" Info.plist
+s342891386.226511
+e342891386.265109
+r1
+xProcessInfoPlistFile
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Info.plist
+xInfo.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plista7213a7a1b70b441^6b48447a1b70b441^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/Alex/Dropbox/Mac%20Dev/SimpleCalc/Info.plist0000000000000000^399"ProcessInfoPlistFile build/Release/SimpleCalc.app/Contents/Info.plist Info.plist    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app/Contents/Info.plist"36"2175B6E7-B22A-4D3A-8DEA-F23B950AD4D7-
+
+CProcessPCH /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-bibtasmfqtmpkebuncsdhcdzpfee/SimpleCalc_Prefix.pch.pth SimpleCalc_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/0n/1t0w24mx4m9dgcn8w1j3xhgm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleCalc_Prefix-fetrrniufpmngffbmokorfsolhtl/SimpleCalc_Prefix.pch.pth SimpleCalc_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app"
+s342891391.310489
+e342891391.317444
+r1
+xTouch
+x/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Touch /Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app60914f7f1b70b441^d674517f1b70b441^---0#0#0#--175"Touch build/Release/SimpleCalc.app    cd "/Users/Alex/Dropbox/Mac Dev/SimpleCalc"    /usr/bin/touch -c "/Users/Alex/Dropbox/Mac Dev/SimpleCalc/build/Release/SimpleCalc.app"36"2859FB8A-7A7C-48EB-8689-93DCC59188E6-
+
