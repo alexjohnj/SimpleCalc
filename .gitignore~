@@ -1,8 +1,6 @@
 
 .DS_Store
 
-.gitignore
-
 Changelog.rtf
 
 SimpleCalc.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/WorkspaceSettings.xcsettings
