@@ -14,7 +14,6 @@
 
 #pragma mark Preferences Window Code
 
-static NSString * const autoCalcIsEnabled = @"autoCalcIsEnabled";
 static NSString * const statusBarMode = @"statusBarMode";
 
 -(IBAction)showPreferences:(id)sender{
