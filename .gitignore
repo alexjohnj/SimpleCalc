@@ -1,18 +1,26 @@
-
 .DS_Store
 
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
 .gitignore
-
-Changelog.rtf
-
-SimpleCalc.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/WorkspaceSettings.xcsettings
-
-SimpleCalc.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate
-
-SimpleCalc.xcodeproj/project.pbxproj
-
-SimpleCalc.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate
-
-README.md
-
-Changelog.m
