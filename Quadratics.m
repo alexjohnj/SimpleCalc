@@ -72,5 +72,4 @@
         [self.negativeXAnswerField setDoubleValue:[self calculateNegativeX]];
     }
 }
-
 @end

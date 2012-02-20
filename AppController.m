@@ -10,16 +10,18 @@
 
 
 @implementation AppController
-@synthesize statusItem;
+
+@synthesize statusItem, preferenceController;
+@synthesize positiveXLabel, negativeXLabel, positiveXTextFieldCell, negativeXTextFieldCell, mainWindow;
 
 #pragma mark Preferences Window Code
 
 static NSString * const statusBarMode = @"statusBarMode";
 
 -(IBAction)showPreferences:(id)sender{
-    if(!preferenceController){
+    if(!preferenceController)
         preferenceController = [[PreferencesController alloc] init];
-    }
+    
     [preferenceController showWindow:self];
 }
 
@@ -44,10 +46,11 @@ static NSString * const statusBarMode = @"statusBarMode";
 
 #pragma mark - StatusBar Item Code
 - (void)toggleVisibilityOfMainWindow:(id)sender {
-    if ([mainWindow isKeyWindow]) { //This method is used to show/hide the window when the status item is clicked
+    if ([mainWindow isKeyWindow]){ //This method is used to show/hide the window when the status item is clicked
         [mainWindow orderOut:nil];
         return;
     }
+    
     [mainWindow makeKeyAndOrderFront:nil];
     [NSApp activateIgnoringOtherApps:YES];
 }
@@ -65,12 +68,10 @@ static NSString * const statusBarMode = @"statusBarMode";
 }
 
 -(IBAction)toggleStatusBarMode:(id)sender{
-    if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarMode]){
+    if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarMode])
         [self statusBarItem];
-    }
     
-    if(![[NSUserDefaults standardUserDefaults] boolForKey:statusBarMode]){
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:statusBarMode])
         [[NSStatusBar systemStatusBar] removeStatusItem:[self statusItem]];
-    }
 }
 @end

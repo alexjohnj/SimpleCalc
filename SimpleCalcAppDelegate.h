@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SimpleCalcAppDelegate : NSObject <NSApplicationDelegate>{
-    IBOutlet NSWindow *window;
-}
+@interface SimpleCalcAppDelegate : NSObject <NSApplicationDelegate>
+    
 @property (assign) IBOutlet NSWindow *window;
+
 @end

@@ -39,13 +39,15 @@ static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
 }
 
 - (IBAction)SetDivisionMenu:(id)sender { //checks to see if autocalc is enabled 
-	[operationPopup selectItemAtIndex:3];    
+	[operationPopup selectItemAtIndex:3];  
+    
     if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey]) //if it is enabled, calculate: method is called
         [answerField setDoubleValue:[self calculate]]; 
 }
 
 - (IBAction)SetSubtractionMenu:(id)sender {
 	[operationPopup selectItemAtIndex:1];
+    
     if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
@@ -58,6 +60,7 @@ static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
 
 - (IBAction)setMultiplicationMenu:(id)sender {
 	[operationPopup selectItemAtIndex:2];
+    
     if([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
@@ -93,5 +96,4 @@ static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
     if ([[NSUserDefaults standardUserDefaults] boolForKey:autoCalcIsEnabledKey])
         [answerField setDoubleValue:[self calculate]];
 }
-
 @end

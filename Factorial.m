@@ -10,6 +10,7 @@
 
 @implementation Factorial
 @synthesize window, answerField, factorialField;
+@synthesize tries;
 
 static NSString *const seenFactorialWarningKey = @"seenFactorialWarning";
 static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";

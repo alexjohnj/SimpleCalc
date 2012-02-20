@@ -7,10 +7,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Converter : NSObject {
-    IBOutlet NSTextField *answerField;
-    IBOutlet NSTextField *numberField;
-}
+@interface Converter : NSObject 
+
 @property (assign) IBOutlet NSTextField *answerField;
 @property (assign) IBOutlet NSTextField *numberField;
 

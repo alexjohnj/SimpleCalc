@@ -10,6 +10,8 @@
 
 @implementation PreferencesController
 
+@synthesize autoCalcCheck;
+
 #pragma mark Initialisation Methods
 -(id)init{
     if (![super initWithWindowNibName:@"Preferences"]) 

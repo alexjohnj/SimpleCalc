@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-@interface AverageModel : NSObject {
-    double number;
-}
+@interface AverageModel : NSObject
+
 @property (assign) double number;
+
 @end

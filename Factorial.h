@@ -8,20 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Factorial : NSObject {
-@private
-    IBOutlet NSTextField *factorialField;
-    IBOutlet NSTextField *answerField;
-    
-    IBOutlet NSWindow *window;
-    
-    int tries;
-}
+@interface Factorial : NSObject
+
+@property (assign) int tries;
+
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSTextField *factorialField;
 @property (assign) IBOutlet NSTextField *answerField;
 
 -(IBAction)calculate:(id)sender;
+
 -(double)factorialise;
 
 @end

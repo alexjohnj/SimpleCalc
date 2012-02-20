@@ -7,12 +7,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface BasicCalculations : NSObject {
-    IBOutlet NSTextField *answerField;
-    IBOutlet NSTextField *numberField;
-    IBOutlet NSTextField *numberFieldtwo;
-    IBOutlet NSPopUpButton *operationPopup;
-}
+@interface BasicCalculations : NSObject
+
 @property (assign) IBOutlet NSTextField *answerField;
 @property (assign) IBOutlet NSTextField *numberField;
 @property (assign) IBOutlet NSTextField *numberFieldtwo;
@@ -25,6 +21,7 @@
 - (IBAction)setMultiplicationMenu:(id)sender;
 - (IBAction)squareNumber:(id)sender;
 - (IBAction)operationDidChange:(id)sender;
+
 -(double)calculate;
 
 @end

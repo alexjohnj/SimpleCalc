@@ -10,25 +10,21 @@
 #import <Foundation/Foundation.h>
 #import "PreferencesController.h"
 
-@interface AppController : NSObject {
-@private
-    PreferencesController *preferenceController;
-    IBOutlet NSWindow *mainWindow;
-    NSStatusItem *statusItem;
-    
-    //Quadratic UI IVars.
-    IBOutlet NSTextField *positiveXLabel;
-    IBOutlet NSTextField *negativeXLabel;
-    IBOutlet NSTextFieldCell *positiveXTextFieldCell;
-    IBOutlet NSTextFieldCell *negativeXTextFieldCell;
-}
+@interface AppController : NSObject 
 
 @property (retain) NSStatusItem *statusItem;
+@property (retain) PreferencesController *preferenceController;
+
+@property (assign) IBOutlet NSWindow *mainWindow;
+@property (assign) IBOutlet NSTextField *positiveXLabel;
+@property (assign) IBOutlet NSTextField *negativeXLabel;
+@property (assign) IBOutlet NSTextFieldCell *positiveXTextFieldCell;
+@property (assign) IBOutlet NSTextFieldCell *negativeXTextFieldCell;
 
 -(IBAction)showPreferences:(id)sender;
-
 -(IBAction)toggleStatusBarMode:(id)sender;
 
 -(void)toggleVisibilityOfMainWindow:(id)sender;
 -(void)statusBarItem;
+
 @end

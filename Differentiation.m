@@ -24,9 +24,8 @@
 	[prex setDoubleValue:pre];
 	[power setDoubleValue:pow];
 	
-	if (pow == 0){
-		[x setStringValue:@" "];}
-    
+	if (pow == 0)
+        [x setStringValue:@" "];
 }
 
 - (IBAction)integrate:(id)sender {
@@ -43,6 +42,5 @@
 	[prex setDoubleValue:pre];
 	[power setDoubleValue:pwr];
 	[plusc setStringValue:@"+C"];
-	
 }
 @end

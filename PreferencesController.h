@@ -9,9 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PreferencesController : NSWindowController {
-@private
-    IBOutlet NSButton *autoCalcCheck;
-}
+@interface PreferencesController : NSWindowController 
+
+@property (assign) IBOutlet NSButton *autoCalcCheck;
 
 @end

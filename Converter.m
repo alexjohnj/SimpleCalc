@@ -5,13 +5,12 @@
 //  Copyright 2011 SimpleCode. All rights reserved.
 //
 
-#import "Converter.h"
-
-
 /****THIS CODE REALLY NEEDS CLEANING UP & LOCALISING
  If someone would do that, that would be great!***/
 
+#import "Converter.h"
 @implementation Converter
+
 @synthesize numberField, answerField;
 #pragma mark Conversions Code
 //I'm pretty certain these methods are self explanatory.
@@ -60,10 +59,10 @@
 
 -(IBAction)yardtom:(id)sender{
 	double number, answer;
-		
+    
 	number = [numberField doubleValue];
 	answer = number * 0.9144;
-
+    
 	[answerField setStringValue: [NSString stringWithFormat:@"%2.05gm", answer]];
 	
 }
@@ -74,7 +73,6 @@
 	number = [numberField doubleValue];
 	answer = number * 1.0936133;
 	[answerField setStringValue: [NSString stringWithFormat:@"%2.05g Yards", answer]];
-	
 }
 
 - (IBAction)feettom:(id)sender{
@@ -94,8 +92,7 @@
 	number = [numberField doubleValue];
 	answer = number *  3.2808399;
 	
-	[answerField setStringValue: [NSString stringWithFormat: @"%2.05g Feet", answer]];
-	
+	[answerField setStringValue: [NSString stringWithFormat: @"%2.05g Feet", answer]];	
 }
 
 - (IBAction)feettoyard:(id)sender{
@@ -115,7 +112,6 @@
 	answer = number * 3;
 	
 	[answerField setStringValue: [NSString stringWithFormat:@"%2.05g Feet", answer]];
-	
 }
 
 - (IBAction)ktoc:(id)sender{
@@ -135,6 +131,4 @@
 	
 	[answerField setStringValue: [NSString stringWithFormat:@"%2.05g ˚K", answer]];
 }
-
-
 @end

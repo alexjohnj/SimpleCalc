@@ -9,14 +9,11 @@
 #import "SimpleCalcAppDelegate.h"
 
 @implementation SimpleCalcAppDelegate
+
 @synthesize window;
 
 static NSString *const autoCalcIsEnabled = @"autoCalcIsEnabled";
 static NSString * const statusBarModeKey = @"statusBarMode";
-
--(void)applicationDidFinishLaunching:(NSNotification *)notification{
-    
-}
 
 -(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
     if([[NSUserDefaults standardUserDefaults] boolForKey:statusBarModeKey]) 
@@ -31,6 +28,7 @@ static NSString * const statusBarModeKey = @"statusBarMode";
     NSArray *objectsArray = [[NSArray alloc] initWithObjects:[NSNumber numberWithBool:YES], [NSNumber numberWithBool:NO] ,nil];
     NSArray *keysArray = [[NSArray alloc] initWithObjects:autoCalcIsEnabled, statusBarModeKey, nil];
     NSDictionary *defaults = [[NSDictionary alloc] initWithObjects:objectsArray forKeys:keysArray];
+    
     [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
     
     [defaults release];

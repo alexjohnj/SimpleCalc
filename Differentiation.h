@@ -7,13 +7,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Differentiation : NSObject {
-    IBOutlet NSTextField *plusc;
-    IBOutlet NSTextField *power;
-    IBOutlet NSTextField *prex;
-    IBOutlet NSTextField *x;
-	IBOutlet NSTextField *answerField;
-}
+@interface Differentiation : NSObject
+
 @property (assign) IBOutlet NSTextField *plusc;
 @property (assign) IBOutlet NSTextField *power;
 @property (assign) IBOutlet NSTextField *prex;
@@ -23,4 +18,5 @@
 
 - (IBAction)differentiate:(id)sender;
 - (IBAction)integrate:(id)sender;
+
 @end
