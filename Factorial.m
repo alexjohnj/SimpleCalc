@@ -47,6 +47,10 @@ static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
 -(double)factorialise{
     double answer, g, number; //three variables, the users number, the answer and a copy of the users number (called g?). g will be decremented
 	number = [factorialField doubleValue];
+    
+    if (number == 0) //0! is 1. This is so that when carrying out nCr calculations, you don't end up with something over 0 (which = infinity). 0! is simply defined as this. 
+        return 1;
+    
 	int counter = 1; //a counter, for the while loop
     
 	answer = number; //answer equals number so that we can multiply answer by g (the decremented number)
