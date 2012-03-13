@@ -51,6 +51,11 @@ static NSString *const autoCalcIsEnabledKey = @"autoCalcIsEnabled";
     if (number == 0) //0! is 1. This is so that when carrying out nCr calculations, you don't end up with something over 0 (which = infinity). 0! is simply defined as this. 
         return 1;
     
+    if (number < 0){
+        NSBeep();
+        return INFINITY;
+    }
+    
 	int counter = 1; //a counter, for the while loop
     
 	answer = number; //answer equals number so that we can multiply answer by g (the decremented number)
